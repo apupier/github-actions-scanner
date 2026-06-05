@@ -1,15 +1,36 @@
-# GitHub Actions Concurrency Scanner
+# GitHub Actions Scanner
 
-A Python script to scan GitHub Actions workflows for missing or incorrect concurrency configuration in Apache projects.
+A collection of Python scripts to analyze and monitor GitHub Actions workflows in Apache projects.
 
-## Purpose
+## Available Scripts
 
-This script identifies GitHub Actions workflows that:
+### 1. Concurrency Scanner (`scan_concurrency.py`)
+
+Identifies GitHub Actions workflows that:
 - Trigger on `pull_request` events
 - Don't have proper `concurrency.cancel-in-progress` configuration
 - Should have `cancel-in-progress` set to `true` or `${{ github.ref != 'refs/heads/main' }}`
 
 Proper concurrency configuration helps prevent wasted CI resources by canceling outdated workflow runs when new commits are pushed to a pull request.
+
+See [WORKFLOW_SCANNER_USAGE.md](WORKFLOW_SCANNER_USAGE.md) for detailed usage.
+
+### 2. Queued Workflows Reporter (`report_queued_workflows.py`)
+
+Reports GitHub Actions workflow runs that have been stuck in "queued" state for longer than a specified threshold (default: 2 days).
+
+This helps identify:
+- Workflow runs waiting for unavailable runners
+- Stuck jobs that may need manual intervention
+- Resource allocation issues in your CI/CD pipeline
+
+See [QUEUED_WORKFLOWS_USAGE.md](QUEUED_WORKFLOWS_USAGE.md) for detailed usage.
+
+### 3. Repository Workflow Lister (`list_repos_with_workflows.py`)
+
+Lists all repositories in an organization that have GitHub Actions workflows configured.
+
+See [QUICK_START.md](QUICK_START.md) for detailed usage.
 
 ## Requirements
 
@@ -28,95 +49,58 @@ pip install -r requirements.txt
 export GITHUB_TOKEN=your_github_token_here
 ```
 
-## Usage
+## Quick Start
 
-### Scan a single repository
-
-```bash
-python scan_concurrency.py --repo apache/camel
-```
-
-### Scan all repositories in an organization
+### Check for Concurrency Issues
 
 ```bash
-python scan_concurrency.py --org apache --all
+# Test on a single repository
+python3 scan_concurrency.py --repo apache/camel
+
+# Scan all Apache repositories
+python3 scan_concurrency.py --org apache --all
 ```
 
-### With custom delay to avoid rate limiting
+### Monitor Queued Workflows
 
 ```bash
-python scan_concurrency.py --repo apache/camel --delay 2.0
+# Test on a single repository
+python3 report_queued_workflows.py --repo apache/camel
+
+# Scan all repositories with workflows
+python3 report_queued_workflows.py --repos-file reports/apache_workflows.txt
 ```
 
-### Save report to file
+### List Repositories with Workflows
 
 ```bash
-python scan_concurrency.py --repo apache/camel --output report.txt
+# List all Apache repositories with workflows
+python3 list_repos_with_workflows.py --org apache --output reports/apache_workflows.txt
 ```
 
-### With GitHub token
+## Common Options
 
-```bash
-python scan_concurrency.py --repo apache/camel --token YOUR_TOKEN
-```
+All scripts support these common options:
 
-## Command Line Options
-
-- `--repo OWNER/NAME`: Scan a specific repository (e.g., `apache/camel`)
-- `--org ORG`: Specify organization name (e.g., `apache`)
-- `--all`: Scan all repositories in the organization (use with `--org`)
 - `--token TOKEN`: GitHub personal access token (or set `GITHUB_TOKEN` env var)
-- `--delay SECONDS`: Delay between API calls in seconds (default: 1.0)
+- `--delay SECONDS`: Delay between API calls in seconds
 - `--output FILE`: Save report to file instead of printing to stdout
 
-## Issue Types
+See individual script documentation for specific options.
 
-The script detects the following issues:
+## Example Workflow
 
-1. **MISSING_CONCURRENCY**: Workflow triggers on pull_request but has no concurrency configuration
-2. **MISSING_CANCEL_IN_PROGRESS**: Concurrency is defined but `cancel-in-progress` is not set
-3. **INCORRECT_CANCEL_IN_PROGRESS**: `cancel-in-progress` has an incorrect value
-4. **YAML_PARSE_ERROR**: Unable to parse the workflow YAML file
+A typical workflow for monitoring Apache repositories:
 
-## Example Output
+```bash
+# 1. Find all repositories with workflows
+python3 list_repos_with_workflows.py --org apache --output reports/apache_workflows.txt
 
-```
-Scanning repository: apache/camel
-  Found 15 workflow file(s)
-  Checking: build.yml
-    ✓ OK
-  Checking: pr-build.yml
-    ⚠️  Issue found: MISSING_CONCURRENCY
-  Checking: daily.yml
-    ✓ OK
+# 2. Check for concurrency configuration issues
+python3 scan_concurrency.py --org apache --all --output reports/concurrency_issues.txt
 
-⚠️  Found 1 issue(s):
-
-================================================================================
-
-Repository: apache/camel
---------------------------------------------------------------------------------
-  File: pr-build.yml
-  Issue: MISSING_CONCURRENCY
-  Details: Workflow triggers on pull_request but has no concurrency configuration
-```
-
-## Valid Concurrency Configurations
-
-The script accepts the following as valid `cancel-in-progress` values:
-
-1. Boolean `true`:
-```yaml
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-```
-
-2. Conditional expression (don't cancel on main branch):
-```yaml
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+# 3. Monitor for stuck workflow runs
+python3 report_queued_workflows.py --repos-file reports/apache_workflows.txt --output reports/queued_runs.txt
 ```
 
 ## Rate Limiting
@@ -133,34 +117,12 @@ For scanning many repositories:
 - `0`: No issues found
 - `1`: Issues found or errors occurred
 
-## Testing on Apache Camel
+## Documentation
 
-To test the script on the Apache Camel project before running on all Apache repositories:
-
-```bash
-python scan_concurrency.py --repo apache/camel --delay 1.5
-```
-
-This will scan all workflow files in the apache/camel repository with a 1.5-second delay between API calls.
-
-**Test Results**: The apache/camel repository has been tested and all 17 workflow files have proper concurrency configuration! ✅
-
-## Scanning All Apache Repositories
-
-A convenience script is provided to scan all Apache repositories:
-
-```bash
-./scan_all_apache.sh
-```
-
-This script will:
-- Check if `GITHUB_TOKEN` is set (recommended)
-- Create a `reports/` directory
-- Generate a timestamped report file
-- Scan all Apache repositories with a 2-second delay between API calls
-- Save the results to `reports/apache_scan_TIMESTAMP.txt`
-
-**Warning**: Scanning all Apache repositories will take a considerable amount of time and make many API calls. Make sure you have a GitHub token set to avoid rate limits.
+- [QUICK_START.md](QUICK_START.md) - Quick start guide for listing repositories
+- [WORKFLOW_SCANNER_USAGE.md](WORKFLOW_SCANNER_USAGE.md) - Concurrency scanner usage
+- [QUEUED_WORKFLOWS_USAGE.md](QUEUED_WORKFLOWS_USAGE.md) - Queued workflows reporter usage
+- [GITHUB_TOKEN_SETUP.md](GITHUB_TOKEN_SETUP.md) - GitHub token setup instructions
 
 ## License
 
