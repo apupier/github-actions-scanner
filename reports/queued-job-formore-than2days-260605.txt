@@ -1,0 +1,1923 @@
+================================================================================
+QUEUED WORKFLOW RUNS REPORT
+Threshold: 48 hours (2 days)
+Report generated: 2026-06-05 08:31:56 UTC
+================================================================================
+
+⚠️  Found 249 workflow run(s) queued longer than threshold:
+
+
+Repository: apache/airflow
+--------------------------------------------------------------------------------
+  Workflow: Tests AMD
+  Run ID: #12404 (17082096571)
+  Branch: pub-sub-add-queue (5e852d8)
+  Queued since: 2025-08-19 21:19:45 UTC
+  Duration: 289d 10h 56m
+  URL: https://github.com/apache/airflow/actions/runs/17082096571
+
+  Workflow: CodeQL
+  Run ID: #53872 (17082096472)
+  Branch: pub-sub-add-queue (5e852d8)
+  Queued since: 2025-08-19 21:19:45 UTC
+  Duration: 289d 10h 56m
+  URL: https://github.com/apache/airflow/actions/runs/17082096472
+
+  Workflow: CI
+  Run ID: #54225 (17082096471)
+  Branch: pub-sub-add-queue (5e852d8)
+  Queued since: 2025-08-19 21:19:45 UTC
+  Duration: 289d 10h 56m
+  URL: https://github.com/apache/airflow/actions/runs/17082096471
+
+  Workflow: Tests
+  Run ID: #19380 (22727301444)
+  Branch: vincbeck/tar_upgrade_3-1 (2e0d534)
+  Queued since: 2026-03-05 16:21:25 UTC
+  Duration: 91d 15h 55m
+  URL: https://github.com/apache/airflow/actions/runs/22727301444
+
+  Workflow: Tests (AMD)
+  Run ID: #23406 (26446665270)
+  Branch: trigger-policy (44f5011)
+  Queued since: 2026-05-26 10:23:34 UTC
+  Duration: 9d 21h 52m
+  URL: https://github.com/apache/airflow/actions/runs/26446665270
+
+
+Repository: apache/airflow-site
+--------------------------------------------------------------------------------
+  Workflow: Build docs
+  Run ID: #3256 (23388634186)
+  Branch: staging (25c9a95)
+  Queued since: 2026-03-21 20:56:46 UTC
+  Duration: 75d 11h 24m
+  URL: https://github.com/apache/airflow-site/actions/runs/23388634186
+
+
+Repository: apache/apisix
+--------------------------------------------------------------------------------
+  Workflow: CI Kubernetes
+  Run ID: #8579 (15249513347)
+  Branch: fix/consumer-credential-modifiedIndex (43283b5)
+  Queued since: 2025-05-26 08:18:21 UTC
+  Duration: 375d 3m
+  URL: https://github.com/apache/apisix/actions/runs/15249513347
+
+  Workflow: CI Tars
+  Run ID: #8040 (15249513321)
+  Branch: fix/consumer-credential-modifiedIndex (43283b5)
+  Queued since: 2025-05-26 08:18:21 UTC
+  Duration: 375d 3m
+  URL: https://github.com/apache/apisix/actions/runs/15249513321
+
+  Workflow: CLI Test
+  Run ID: #10712 (15249513372)
+  Branch: fix/consumer-credential-modifiedIndex (43283b5)
+  Queued since: 2025-05-26 08:18:22 UTC
+  Duration: 375d 3m
+  URL: https://github.com/apache/apisix/actions/runs/15249513372
+
+  Workflow: CI
+  Run ID: #19269 (18371854275)
+  Branch: release/3.14 (c89d39c)
+  Queued since: 2025-10-09 09:29:01 UTC
+  Duration: 238d 22h 52m
+  URL: https://github.com/apache/apisix/actions/runs/18371854275
+
+  Workflow: PR Lint
+  Run ID: #15010 (26447061741)
+  Branch: fix-ai-proxy-multi-domain-hc-20260526174346 (7d4ca48)
+  Queued since: 2026-05-26 10:32:19 UTC
+  Duration: 9d 21h 49m
+  URL: https://github.com/apache/apisix/actions/runs/26447061741
+
+  Workflow: CLI Test
+  Run ID: #14222 (26447062897)
+  Branch: fix-ai-proxy-multi-domain-hc-20260526174346 (7d4ca48)
+  Queued since: 2026-05-26 10:32:20 UTC
+  Duration: 9d 21h 49m
+  URL: https://github.com/apache/apisix/actions/runs/26447062897
+
+  Workflow: Source Code Install
+  Run ID: #5685 (26447062763)
+  Branch: fix-ai-proxy-multi-domain-hc-20260526174346 (7d4ca48)
+  Queued since: 2026-05-26 10:32:20 UTC
+  Duration: 9d 21h 49m
+  URL: https://github.com/apache/apisix/actions/runs/26447062763
+
+  Workflow: CI Kubernetes
+  Run ID: #12089 (26447062767)
+  Branch: fix-ai-proxy-multi-domain-hc-20260526174346 (7d4ca48)
+  Queued since: 2026-05-26 10:32:20 UTC
+  Duration: 9d 21h 49m
+  URL: https://github.com/apache/apisix/actions/runs/26447062767
+
+  Workflow: Code Lint
+  Run ID: #13678 (26447062851)
+  Branch: fix-ai-proxy-multi-domain-hc-20260526174346 (7d4ca48)
+  Queued since: 2026-05-26 10:32:20 UTC
+  Duration: 9d 21h 49m
+  URL: https://github.com/apache/apisix/actions/runs/26447062851
+
+  Workflow: License checker
+  Run ID: #18765 (26447062769)
+  Branch: fix-ai-proxy-multi-domain-hc-20260526174346 (7d4ca48)
+  Queued since: 2026-05-26 10:32:20 UTC
+  Duration: 9d 21h 49m
+  URL: https://github.com/apache/apisix/actions/runs/26447062769
+
+  Workflow: CI Tars
+  Run ID: #11550 (26447062895)
+  Branch: fix-ai-proxy-multi-domain-hc-20260526174346 (7d4ca48)
+  Queued since: 2026-05-26 10:32:20 UTC
+  Duration: 9d 21h 49m
+  URL: https://github.com/apache/apisix/actions/runs/26447062895
+
+  Workflow: CI
+  Run ID: #21490 (26447062844)
+  Branch: fix-ai-proxy-multi-domain-hc-20260526174346 (7d4ca48)
+  Queued since: 2026-05-26 10:32:20 UTC
+  Duration: 9d 21h 49m
+  URL: https://github.com/apache/apisix/actions/runs/26447062844
+
+  Workflow: ❄️ Lint
+  Run ID: #21617 (26447062848)
+  Branch: fix-ai-proxy-multi-domain-hc-20260526174346 (7d4ca48)
+  Queued since: 2026-05-26 10:32:20 UTC
+  Duration: 9d 21h 49m
+  URL: https://github.com/apache/apisix/actions/runs/26447062848
+
+
+Repository: apache/arrow
+--------------------------------------------------------------------------------
+  Workflow: Workflow label bot
+  Run ID: #69689 (25382026116)
+  Branch: arnavb/fix-upstream-malformed-data (6cd1b89)
+  Queued since: 2026-05-05 14:19:38 UTC
+  Duration: 30d 17h 57m
+  URL: https://github.com/apache/arrow/actions/runs/25382026116
+
+  Workflow: Label when reviewed
+  Run ID: #37995 (26445519803)
+  Branch: gh-50041-fixup-zoneinfo-fallback-test (3679dfb)
+  Queued since: 2026-05-26 09:58:31 UTC
+  Duration: 9d 22h 18m
+  URL: https://github.com/apache/arrow/actions/runs/26445519803
+
+
+Repository: apache/arrow-rs
+--------------------------------------------------------------------------------
+  Workflow: dev
+  Run ID: #21937 (19582104716)
+  Branch: dev/rosezhang/sbbf (b65d207)
+  Queued since: 2025-11-21 20:04:39 UTC
+  Duration: 195d 12h 20m
+  URL: https://github.com/apache/arrow-rs/actions/runs/19582104716
+
+  Workflow: parquet
+  Run ID: #14019 (19582104749)
+  Branch: dev/rosezhang/sbbf (b65d207)
+  Queued since: 2025-11-21 20:04:39 UTC
+  Duration: 195d 12h 20m
+  URL: https://github.com/apache/arrow-rs/actions/runs/19582104749
+
+  Workflow: docs
+  Run ID: #17577 (19582104691)
+  Branch: dev/rosezhang/sbbf (b65d207)
+  Queued since: 2025-11-21 20:04:39 UTC
+  Duration: 195d 12h 20m
+  URL: https://github.com/apache/arrow-rs/actions/runs/19582104691
+
+  Workflow: rust
+  Run ID: #21939 (19582104659)
+  Branch: dev/rosezhang/sbbf (b65d207)
+  Queued since: 2025-11-21 20:04:39 UTC
+  Duration: 195d 12h 20m
+  URL: https://github.com/apache/arrow-rs/actions/runs/19582104659
+
+  Workflow: parquet_derive
+  Run ID: #8044 (19582104686)
+  Branch: dev/rosezhang/sbbf (b65d207)
+  Queued since: 2025-11-21 20:04:39 UTC
+  Duration: 195d 12h 20m
+  URL: https://github.com/apache/arrow-rs/actions/runs/19582104686
+
+  Workflow: arrow_flight
+  Run ID: #11172 (23349007040)
+  Branch: truncate-zero (a334bb9)
+  Queued since: 2026-03-20 15:07:06 UTC
+  Duration: 76d 17h 17m
+  URL: https://github.com/apache/arrow-rs/actions/runs/23349007040
+
+
+Repository: apache/artemis-examples
+--------------------------------------------------------------------------------
+  Workflow: Build
+  Run ID: #159 (22726885470)
+  Branch: demo-clients (9082531)
+  Queued since: 2026-03-05 16:11:33 UTC
+  Duration: 91d 16h 17m
+  URL: https://github.com/apache/artemis-examples/actions/runs/22726885470
+
+
+Repository: apache/atlas
+--------------------------------------------------------------------------------
+  Workflow: CI
+  Run ID: #1527 (26442726524)
+  Branch: ATLAS-5002 (49368ae)
+  Queued since: 2026-05-26 08:59:43 UTC
+  Duration: 9d 23h 18m
+  URL: https://github.com/apache/atlas/actions/runs/26442726524
+
+
+Repository: apache/beam
+--------------------------------------------------------------------------------
+  Workflow: PreCommit Java Amazon-Web-Services2 IO Direct
+  Run ID: #37672 (25907146801)
+  Branch: master (9a1a4b1)
+  Queued since: 2026-05-15 07:59:42 UTC
+  Duration: 21d 17m
+  URL: https://github.com/apache/beam/actions/runs/25907146801
+
+  Workflow: Playground Frontend Test
+  Run ID: #794 (26512230495)
+  Branch: feat/ks-impulse-translator (120a348)
+  Queued since: 2026-05-27 12:53:07 UTC
+  Duration: 8d 19h 24m
+  URL: https://github.com/apache/beam/actions/runs/26512230495
+
+
+Repository: apache/camel
+--------------------------------------------------------------------------------
+  Workflow: Build and test
+  Run ID: #18180 (26442254234)
+  Branch: fix/CAMEL-23588 (9e54367)
+  Queued since: 2026-05-26 08:49:44 UTC
+  Duration: 9d 23h 23m
+  URL: https://github.com/apache/camel/actions/runs/26442254234
+
+
+Repository: apache/camel-quarkus
+--------------------------------------------------------------------------------
+  Workflow: Validate PR Style
+  Run ID: #8630 (26438124632)
+  Branch: feat/support_otel_include (fab53ae)
+  Queued since: 2026-05-26 07:17:05 UTC
+  Duration: 10d 1h 4m
+  URL: https://github.com/apache/camel-quarkus/actions/runs/26438124632
+
+
+Repository: apache/celeborn
+--------------------------------------------------------------------------------
+  Workflow: Celeborn CI
+  Run ID: #16524 (26428610612)
+  Branch: main (759e7b5)
+  Queued since: 2026-05-26 02:21:56 UTC
+  Duration: 10d 6h 3m
+  URL: https://github.com/apache/celeborn/actions/runs/26428610612
+
+
+Repository: apache/cloudberry
+--------------------------------------------------------------------------------
+  Workflow: Apache Cloudberry Debian Build
+  Run ID: #1394 (26446731561)
+  Branch: cbdb-pg16-merge (d74dadc)
+  Queued since: 2026-05-26 10:25:03 UTC
+  Duration: 9d 22h 2m
+  URL: https://github.com/apache/cloudberry/actions/runs/26446731561
+
+  Workflow: Apache Cloudberry Build
+  Run ID: #4357 (26446731450)
+  Branch: cbdb-pg16-merge (d74dadc)
+  Queued since: 2026-05-26 10:25:03 UTC
+  Duration: 9d 22h 2m
+  URL: https://github.com/apache/cloudberry/actions/runs/26446731450
+
+  Workflow: docker-cbdb-test-containers
+  Run ID: #86 (26446731560)
+  Branch: cbdb-pg16-merge (d74dadc)
+  Queued since: 2026-05-26 10:25:03 UTC
+  Duration: 9d 22h 2m
+  URL: https://github.com/apache/cloudberry/actions/runs/26446731560
+
+  Workflow: Apache Rat License Check
+  Run ID: #2111 (26446731563)
+  Branch: cbdb-pg16-merge (d74dadc)
+  Queued since: 2026-05-26 10:25:03 UTC
+  Duration: 9d 22h 2m
+  URL: https://github.com/apache/cloudberry/actions/runs/26446731563
+
+  Workflow: Apache Cloudberry Build (Rocky 8)
+  Run ID: #276 (26446731455)
+  Branch: cbdb-pg16-merge (d74dadc)
+  Queued since: 2026-05-26 10:25:03 UTC
+  Duration: 9d 22h 2m
+  URL: https://github.com/apache/cloudberry/actions/runs/26446731455
+
+  Workflow: docker-cbdb-build-containers
+  Run ID: #106 (26446731454)
+  Branch: cbdb-pg16-merge (d74dadc)
+  Queued since: 2026-05-26 10:25:03 UTC
+  Duration: 9d 22h 2m
+  URL: https://github.com/apache/cloudberry/actions/runs/26446731454
+
+  Workflow: Apache Cloudberry Debian Build
+  Run ID: #102 (26446731448)
+  Branch: cbdb-pg16-merge (d74dadc)
+  Queued since: 2026-05-26 10:25:03 UTC
+  Duration: 9d 22h 2m
+  URL: https://github.com/apache/cloudberry/actions/runs/26446731448
+
+  Workflow: Apache Cloudberry Build Debug
+  Run ID: #3750 (26446731446)
+  Branch: cbdb-pg16-merge (d74dadc)
+  Queued since: 2026-05-26 10:25:03 UTC
+  Duration: 9d 22h 2m
+  URL: https://github.com/apache/cloudberry/actions/runs/26446731446
+
+
+Repository: apache/cloudstack
+--------------------------------------------------------------------------------
+  Workflow: UI Build
+  Run ID: #19053 (26368448211)
+  Branch: autosuggestion-in-filter-of-webhook (f020b01)
+  Queued since: 2026-05-24 17:49:33 UTC
+  Duration: 11d 14h 25m
+  URL: https://github.com/apache/cloudstack/actions/runs/26368448211
+
+  Workflow: CodeQL Analysis
+  Run ID: #2306 (26368448201)
+  Branch: autosuggestion-in-filter-of-webhook (f020b01)
+  Queued since: 2026-05-24 17:49:33 UTC
+  Duration: 11d 14h 25m
+  URL: https://github.com/apache/cloudstack/actions/runs/26368448201
+
+  Workflow: Coverage Check
+  Run ID: #20486 (26368448213)
+  Branch: autosuggestion-in-filter-of-webhook (f020b01)
+  Queued since: 2026-05-24 17:49:33 UTC
+  Duration: 11d 14h 25m
+  URL: https://github.com/apache/cloudstack/actions/runs/26368448213
+
+  Workflow: License Check
+  Run ID: #19072 (26368448202)
+  Branch: autosuggestion-in-filter-of-webhook (f020b01)
+  Queued since: 2026-05-24 17:49:33 UTC
+  Duration: 11d 14h 25m
+  URL: https://github.com/apache/cloudstack/actions/runs/26368448202
+
+  Workflow: Simulator CI
+  Run ID: #19078 (26368448203)
+  Branch: autosuggestion-in-filter-of-webhook (f020b01)
+  Queued since: 2026-05-24 17:49:33 UTC
+  Duration: 11d 14h 25m
+  URL: https://github.com/apache/cloudstack/actions/runs/26368448203
+
+  Workflow: Sonar Quality Check
+  Run ID: #13911 (26368448200)
+  Branch: autosuggestion-in-filter-of-webhook (f020b01)
+  Queued since: 2026-05-24 17:49:33 UTC
+  Duration: 11d 14h 25m
+  URL: https://github.com/apache/cloudstack/actions/runs/26368448200
+
+  Workflow: Build
+  Run ID: #19054 (26368448205)
+  Branch: autosuggestion-in-filter-of-webhook (f020b01)
+  Queued since: 2026-05-24 17:49:33 UTC
+  Duration: 11d 14h 25m
+  URL: https://github.com/apache/cloudstack/actions/runs/26368448205
+
+  Workflow: pre-commit
+  Run ID: #1450 (26368448188)
+  Branch: autosuggestion-in-filter-of-webhook (f020b01)
+  Queued since: 2026-05-24 17:49:33 UTC
+  Duration: 11d 14h 25m
+  URL: https://github.com/apache/cloudstack/actions/runs/26368448188
+
+  Workflow: Sonar Quality Check
+  Run ID: #13917 (26401926370)
+  Branch: feat/flasharray-nvme-tcp-support (ad63b95)
+  Queued since: 2026-05-25 13:03:36 UTC
+  Duration: 10d 19h 11m
+  URL: https://github.com/apache/cloudstack/actions/runs/26401926370
+
+  Workflow: UI Build
+  Run ID: #19059 (26401926520)
+  Branch: feat/flasharray-nvme-tcp-support (ad63b95)
+  Queued since: 2026-05-25 13:03:36 UTC
+  Duration: 10d 19h 11m
+  URL: https://github.com/apache/cloudstack/actions/runs/26401926520
+
+  Workflow: Build
+  Run ID: #19060 (26401926371)
+  Branch: feat/flasharray-nvme-tcp-support (ad63b95)
+  Queued since: 2026-05-25 13:03:36 UTC
+  Duration: 10d 19h 11m
+  URL: https://github.com/apache/cloudstack/actions/runs/26401926371
+
+  Workflow: License Check
+  Run ID: #19078 (26401926369)
+  Branch: feat/flasharray-nvme-tcp-support (ad63b95)
+  Queued since: 2026-05-25 13:03:36 UTC
+  Duration: 10d 19h 11m
+  URL: https://github.com/apache/cloudstack/actions/runs/26401926369
+
+  Workflow: Simulator CI
+  Run ID: #19084 (26401926345)
+  Branch: feat/flasharray-nvme-tcp-support (ad63b95)
+  Queued since: 2026-05-25 13:03:36 UTC
+  Duration: 10d 19h 11m
+  URL: https://github.com/apache/cloudstack/actions/runs/26401926345
+
+  Workflow: CodeQL Analysis
+  Run ID: #2309 (26401926373)
+  Branch: feat/flasharray-nvme-tcp-support (ad63b95)
+  Queued since: 2026-05-25 13:03:36 UTC
+  Duration: 10d 19h 11m
+  URL: https://github.com/apache/cloudstack/actions/runs/26401926373
+
+  Workflow: Coverage Check
+  Run ID: #20492 (26401926374)
+  Branch: feat/flasharray-nvme-tcp-support (ad63b95)
+  Queued since: 2026-05-25 13:03:36 UTC
+  Duration: 10d 19h 11m
+  URL: https://github.com/apache/cloudstack/actions/runs/26401926374
+
+  Workflow: pre-commit
+  Run ID: #1453 (26401926343)
+  Branch: feat/flasharray-nvme-tcp-support (ad63b95)
+  Queued since: 2026-05-25 13:03:36 UTC
+  Duration: 10d 19h 11m
+  URL: https://github.com/apache/cloudstack/actions/runs/26401926343
+
+
+Repository: apache/commons-lang
+--------------------------------------------------------------------------------
+  Workflow: Java CI
+  Run ID: #5605 (26423128111)
+  Branch: master (186f6bc)
+  Queued since: 2026-05-25 23:00:26 UTC
+  Duration: 10d 9h 13m
+  URL: https://github.com/apache/commons-lang/actions/runs/26423128111
+
+  Workflow: Java CI
+  Run ID: #5606 (26423206929)
+  Branch: master (8aed583)
+  Queued since: 2026-05-25 23:03:30 UTC
+  Duration: 10d 9h 10m
+  URL: https://github.com/apache/commons-lang/actions/runs/26423206929
+
+  Workflow: Java CI
+  Run ID: #5607 (26423683817)
+  Branch: fix/FastDateParser_TimeZoneStrategyTest_reliability (94db565)
+  Queued since: 2026-05-25 23:21:54 UTC
+  Duration: 10d 8h 51m
+  URL: https://github.com/apache/commons-lang/actions/runs/26423683817
+
+
+Repository: apache/creadur-tentacles
+--------------------------------------------------------------------------------
+  Workflow: GitHub CI
+  Run ID: #727 (26447117082)
+  Branch: dependabot/maven/org.apache.rat-apache-rat-plugin-0.18 (421fa8a)
+  Queued since: 2026-05-26 10:33:31 UTC
+  Duration: 9d 21h 41m
+  URL: https://github.com/apache/creadur-tentacles/actions/runs/26447117082
+
+
+Repository: apache/datafusion
+--------------------------------------------------------------------------------
+  Workflow: PR commands
+  Run ID: #3501 (15445034051)
+  Branch: main (f513e2c)
+  Queued since: 2025-06-04 14:28:08 UTC
+  Duration: 365d 17h 56m
+  URL: https://github.com/apache/datafusion/actions/runs/15445034051
+
+  Workflow: Assign the issue via a `take` comment
+  Run ID: #23502 (15445033947)
+  Branch: main (f513e2c)
+  Queued since: 2025-06-04 14:28:08 UTC
+  Duration: 365d 17h 56m
+  URL: https://github.com/apache/datafusion/actions/runs/15445033947
+
+  Workflow: Datafusion extended tests
+  Run ID: #7860 (23348967493)
+  Branch: main (8f721a6)
+  Queued since: 2026-03-20 15:06:05 UTC
+  Duration: 76d 17h 18m
+  URL: https://github.com/apache/datafusion/actions/runs/23348967493
+
+  Workflow: Rust
+  Run ID: #66779 (26445786376)
+  Branch: partitioned-file-schema (95981fb)
+  Queued since: 2026-05-26 10:04:10 UTC
+  Duration: 9d 22h 20m
+  URL: https://github.com/apache/datafusion/actions/runs/26445786376
+
+  Workflow: Security audit
+  Run ID: #10098 (26446500693)
+  Branch: gh-readonly-queue/main/pr-22451-bdf8a6d0ad0706ccf29d85caf2436039e3bf77d3 (e8a641b)
+  Queued since: 2026-05-26 10:19:55 UTC
+  Duration: 9d 22h 4m
+  URL: https://github.com/apache/datafusion/actions/runs/26446500693
+
+
+Repository: apache/datafusion-ballista
+--------------------------------------------------------------------------------
+  Workflow: Ballista Rust
+  Run ID: #4692 (26446767027)
+  Branch: dependabot/cargo/main/log-0.4.30 (63f2b64)
+  Queued since: 2026-05-26 10:25:50 UTC
+  Duration: 9d 22h
+  URL: https://github.com/apache/datafusion-ballista/actions/runs/26446767027
+
+
+Repository: apache/directory-kerby
+--------------------------------------------------------------------------------
+  Workflow: Build and Test
+  Run ID: #420 (17082106272)
+  Branch: dependabot/maven/com.nimbusds-nimbus-jose-jwt-10.4.2 (c83d881)
+  Queued since: 2025-08-19 21:20:15 UTC
+  Duration: 289d 10h 56m
+  URL: https://github.com/apache/directory-kerby/actions/runs/17082106272
+
+  Workflow: CodeQL
+  Run ID: #1060 (17082106257)
+  Branch: dependabot/maven/com.nimbusds-nimbus-jose-jwt-10.4.2 (c83d881)
+  Queued since: 2025-08-19 21:20:15 UTC
+  Duration: 289d 10h 56m
+  URL: https://github.com/apache/directory-kerby/actions/runs/17082106257
+
+
+Repository: apache/doris
+--------------------------------------------------------------------------------
+  Workflow: FE Code Style Checker
+  Run ID: #319171 (25906678855)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:45:10 UTC
+  Duration: 21d 33m
+  URL: https://github.com/apache/doris/actions/runs/25906678855
+
+  Workflow: Code Review Comment Dispatch
+  Run ID: #7130 (25906679899)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:45:12 UTC
+  Duration: 21d 33m
+  URL: https://github.com/apache/doris/actions/runs/25906679899
+
+  Workflow: Label when approved workflow run
+  Run ID: #108194 (25906692522)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:45:33 UTC
+  Duration: 21d 33m
+  URL: https://github.com/apache/doris/actions/runs/25906692522
+
+  Workflow: Check Large File
+  Run ID: #83009 (25906727132)
+  Branch: branch-4.1 (e752545)
+  Queued since: 2026-05-15 07:46:33 UTC
+  Duration: 21d 32m
+  URL: https://github.com/apache/doris/actions/runs/25906727132
+
+  Workflow: Build Third Party Libraries
+  Run ID: #305561 (25906755849)
+  Branch: auto-pick-62905-branch-4.1 (ca26463)
+  Queued since: 2026-05-15 07:47:25 UTC
+  Duration: 21d 31m
+  URL: https://github.com/apache/doris/actions/runs/25906755849
+
+  Workflow: FE Code Style Checker
+  Run ID: #319172 (25906755837)
+  Branch: auto-pick-62905-branch-4.1 (ca26463)
+  Queued since: 2026-05-15 07:47:25 UTC
+  Duration: 21d 31m
+  URL: https://github.com/apache/doris/actions/runs/25906755837
+
+  Workflow: Dependency License Review
+  Run ID: #9752 (25906755806)
+  Branch: auto-pick-62905-branch-4.1 (ca26463)
+  Queued since: 2026-05-15 07:47:25 UTC
+  Duration: 21d 31m
+  URL: https://github.com/apache/doris/actions/runs/25906755806
+
+  Workflow: License Check
+  Run ID: #355805 (25906755799)
+  Branch: auto-pick-62905-branch-4.1 (ca26463)
+  Queued since: 2026-05-15 07:47:25 UTC
+  Duration: 21d 31m
+  URL: https://github.com/apache/doris/actions/runs/25906755799
+
+  Workflow: Label when approved workflow run
+  Run ID: #108196 (25906772301)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:47:56 UTC
+  Duration: 21d 30m
+  URL: https://github.com/apache/doris/actions/runs/25906772301
+
+  Workflow: Need_2_Approval
+  Run ID: #71990 (25906796556)
+  Branch: auto-pick-62905-branch-4.1 (ca26463)
+  Queued since: 2026-05-15 07:48:40 UTC
+  Duration: 21d 30m
+  URL: https://github.com/apache/doris/actions/runs/25906796556
+
+  Workflow: Comment to trigger teamcity
+  Run ID: #282612 (25906876434)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:51:06 UTC
+  Duration: 21d 27m
+  URL: https://github.com/apache/doris/actions/runs/25906876434
+
+  Workflow: Code Formatter
+  Run ID: #403554 (25906876455)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:51:06 UTC
+  Duration: 21d 27m
+  URL: https://github.com/apache/doris/actions/runs/25906876455
+
+  Workflow: License Check
+  Run ID: #355807 (25906876442)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:51:06 UTC
+  Duration: 21d 27m
+  URL: https://github.com/apache/doris/actions/runs/25906876442
+
+  Workflow: Build Third Party Libraries
+  Run ID: #305564 (25906886336)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:51:24 UTC
+  Duration: 21d 27m
+  URL: https://github.com/apache/doris/actions/runs/25906886336
+
+  Workflow: Code Formatter
+  Run ID: #403555 (25906886316)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:51:24 UTC
+  Duration: 21d 27m
+  URL: https://github.com/apache/doris/actions/runs/25906886316
+
+  Workflow: Code Review
+  Run ID: #4639 (25906900987)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:51:51 UTC
+  Duration: 21d 26m
+  URL: https://github.com/apache/doris/actions/runs/25906900987
+
+  Workflow: Code Formatter
+  Run ID: #403558 (25906953583)
+  Branch: codex-doris-25709-repro (ecac996)
+  Queued since: 2026-05-15 07:53:29 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/doris/actions/runs/25906953583
+
+  Workflow: BE UT (macOS)
+  Run ID: #139960 (25906954566)
+  Branch: TIMESTAMPTZ-schema-change-defaults (0ae4067)
+  Queued since: 2026-05-15 07:53:31 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/doris/actions/runs/25906954566
+
+  Workflow: FE Code Style Checker
+  Run ID: #319178 (25906954597)
+  Branch: TIMESTAMPTZ-schema-change-defaults (0ae4067)
+  Queued since: 2026-05-15 07:53:31 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/doris/actions/runs/25906954597
+
+  Workflow: Check PR title
+  Run ID: #80103 (25906954305)
+  Branch: codex-doris-25709-repro (ecac996)
+  Queued since: 2026-05-15 07:53:31 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/doris/actions/runs/25906954305
+
+  Workflow: Code Formatter
+  Run ID: #403560 (25906954575)
+  Branch: TIMESTAMPTZ-schema-change-defaults (0ae4067)
+  Queued since: 2026-05-15 07:53:31 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/doris/actions/runs/25906954575
+
+  Workflow: Code Formatter
+  Run ID: #403559 (25906954287)
+  Branch: codex-doris-25709-repro (ecac996)
+  Queued since: 2026-05-15 07:53:31 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/doris/actions/runs/25906954287
+
+  Workflow: Comment to trigger teamcity
+  Run ID: #282615 (25906955979)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:53:33 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/doris/actions/runs/25906955979
+
+  Workflow: FE Code Style Checker
+  Run ID: #319179 (25906955972)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:53:33 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/doris/actions/runs/25906955972
+
+  Workflow: Code Formatter
+  Run ID: #403561 (25906956008)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:53:34 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/doris/actions/runs/25906956008
+
+  Workflow: License Check
+  Run ID: #355813 (25906961406)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:53:44 UTC
+  Duration: 21d 24m
+  URL: https://github.com/apache/doris/actions/runs/25906961406
+
+  Workflow: Code Formatter
+  Run ID: #403562 (25906961404)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:53:44 UTC
+  Duration: 21d 24m
+  URL: https://github.com/apache/doris/actions/runs/25906961404
+
+  Workflow: Code Review
+  Run ID: #4643 (25906961373)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:53:44 UTC
+  Duration: 21d 24m
+  URL: https://github.com/apache/doris/actions/runs/25906961373
+
+  Workflow: FE Code Style Checker
+  Run ID: #319181 (25906967810)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:53:57 UTC
+  Duration: 21d 24m
+  URL: https://github.com/apache/doris/actions/runs/25906967810
+
+  Workflow: Build Third Party Libraries
+  Run ID: #305570 (25906967794)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:53:57 UTC
+  Duration: 21d 24m
+  URL: https://github.com/apache/doris/actions/runs/25906967794
+
+  Workflow: Code Review
+  Run ID: #4645 (25906993163)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:54:51 UTC
+  Duration: 21d 23m
+  URL: https://github.com/apache/doris/actions/runs/25906993163
+
+  Workflow: Build Third Party Libraries
+  Run ID: #305571 (25906993156)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:54:51 UTC
+  Duration: 21d 23m
+  URL: https://github.com/apache/doris/actions/runs/25906993156
+
+  Workflow: FE Code Style Checker
+  Run ID: #319182 (25906993158)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:54:51 UTC
+  Duration: 21d 23m
+  URL: https://github.com/apache/doris/actions/runs/25906993158
+
+  Workflow: License Check
+  Run ID: #355816 (25907000337)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:55:05 UTC
+  Duration: 21d 23m
+  URL: https://github.com/apache/doris/actions/runs/25907000337
+
+  Workflow: Build Extensions
+  Run ID: #325575 (25907000300)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:55:05 UTC
+  Duration: 21d 23m
+  URL: https://github.com/apache/doris/actions/runs/25907000300
+
+  Workflow: Build Extensions
+  Run ID: #325577 (25907017319)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:55:35 UTC
+  Duration: 21d 23m
+  URL: https://github.com/apache/doris/actions/runs/25907017319
+
+  Workflow: Comment to trigger teamcity
+  Run ID: #282620 (25907017295)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:55:35 UTC
+  Duration: 21d 23m
+  URL: https://github.com/apache/doris/actions/runs/25907017295
+
+  Workflow: Code Formatter
+  Run ID: #403568 (25907017290)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:55:35 UTC
+  Duration: 21d 23m
+  URL: https://github.com/apache/doris/actions/runs/25907017290
+
+  Workflow: Label when reviewed
+  Run ID: #108122 (25907055097)
+  Branch: codex/fix-load-adaptive-batch-size-4.1-v2 (9b2cada)
+  Queued since: 2026-05-15 07:56:48 UTC
+  Duration: 21d 21m
+  URL: https://github.com/apache/doris/actions/runs/25907055097
+
+  Workflow: Label when approved workflow run
+  Run ID: #108199 (25907092644)
+  Branch: master (a8fd0a1)
+  Queued since: 2026-05-15 07:57:58 UTC
+  Duration: 21d 20m
+  URL: https://github.com/apache/doris/actions/runs/25907092644
+
+  Workflow: Auto Cherry-Pick to Branch
+  Run ID: #28477 (25907106760)
+  Branch: tbl_check_jsonb (cb5fd75)
+  Queued since: 2026-05-15 07:58:24 UTC
+  Duration: 21d 20m
+  URL: https://github.com/apache/doris/actions/runs/25907106760
+
+  Workflow: Check Large File
+  Run ID: #83016 (25907106865)
+  Branch: master (d80ead8)
+  Queued since: 2026-05-15 07:58:25 UTC
+  Duration: 21d 20m
+  URL: https://github.com/apache/doris/actions/runs/25907106865
+
+  Workflow: FE Code Style Checker
+  Run ID: #319187 (25907164731)
+  Branch: master (d80ead8)
+  Queued since: 2026-05-15 08:00:13 UTC
+  Duration: 21d 18m
+  URL: https://github.com/apache/doris/actions/runs/25907164731
+
+  Workflow: License Check
+  Run ID: #355821 (25907164700)
+  Branch: master (d80ead8)
+  Queued since: 2026-05-15 08:00:13 UTC
+  Duration: 21d 18m
+  URL: https://github.com/apache/doris/actions/runs/25907164700
+
+  Workflow: Code Review Comment Dispatch
+  Run ID: #7141 (25907165728)
+  Branch: master (d80ead8)
+  Queued since: 2026-05-15 08:00:15 UTC
+  Duration: 21d 18m
+  URL: https://github.com/apache/doris/actions/runs/25907165728
+
+  Workflow: FE Code Style Checker
+  Run ID: #319188 (25907179430)
+  Branch: master (d80ead8)
+  Queued since: 2026-05-15 08:00:38 UTC
+  Duration: 21d 18m
+  URL: https://github.com/apache/doris/actions/runs/25907179430
+
+  Workflow: Code Review
+  Run ID: #4652 (25907205699)
+  Branch: add-geo-functions (facf26f)
+  Queued since: 2026-05-15 08:01:27 UTC
+  Duration: 21d 17m
+  URL: https://github.com/apache/doris/actions/runs/25907205699
+
+  Workflow: License Check
+  Run ID: #355823 (25907205731)
+  Branch: add-geo-functions (facf26f)
+  Queued since: 2026-05-15 08:01:28 UTC
+  Duration: 21d 17m
+  URL: https://github.com/apache/doris/actions/runs/25907205731
+
+  Workflow: Code Review
+  Run ID: #4653 (25907242464)
+  Branch: master (d80ead8)
+  Queued since: 2026-05-15 08:02:47 UTC
+  Duration: 21d 15m
+  URL: https://github.com/apache/doris/actions/runs/25907242464
+
+  Workflow: Label when reviewed
+  Run ID: #108124 (25907242974)
+  Branch: fix-rf-shared-hash-crash-4.1 (9bfcbf4)
+  Queued since: 2026-05-15 08:02:48 UTC
+  Duration: 21d 15m
+  URL: https://github.com/apache/doris/actions/runs/25907242974
+
+  Workflow: Label when approved workflow run
+  Run ID: #108200 (25907244479)
+  Branch: master (d80ead8)
+  Queued since: 2026-05-15 08:02:51 UTC
+  Duration: 21d 15m
+  URL: https://github.com/apache/doris/actions/runs/25907244479
+
+  Workflow: Code Review
+  Run ID: #4654 (25907307884)
+  Branch: master (d80ead8)
+  Queued since: 2026-05-15 08:04:52 UTC
+  Duration: 21d 13m
+  URL: https://github.com/apache/doris/actions/runs/25907307884
+
+  Workflow: Build Extensions
+  Run ID: #330719 (26446025515)
+  Branch: feat/streaming-mysql-offset-earliest (cf367ea)
+  Queued since: 2026-05-26 10:09:29 UTC
+  Duration: 9d 22h 9m
+  URL: https://github.com/apache/doris/actions/runs/26446025515
+
+
+Repository: apache/doris-spark-connector
+--------------------------------------------------------------------------------
+  Workflow: Label when reviewed
+  Run ID: #409 (15250412494)
+  Branch: fix-push-bugs-with-or-condition (dbc3bf7)
+  Queued since: 2025-05-26 09:26:32 UTC
+  Duration: 374d 22h 59m
+  URL: https://github.com/apache/doris-spark-connector/actions/runs/15250412494
+
+
+Repository: apache/doris-thirdparty
+--------------------------------------------------------------------------------
+  Workflow: Build (1.2-lts)
+  Run ID: #56316 (23509949139)
+  Branch: main (b06792e)
+  Queued since: 2026-03-24 20:07:52 UTC
+  Duration: 72d 12h 18m
+  URL: https://github.com/apache/doris-thirdparty/actions/runs/23509949139
+
+  Workflow: Build (2.1)
+  Run ID: #12782 (25907101871)
+  Branch: main (fcdb662)
+  Queued since: 2026-05-15 07:58:15 UTC
+  Duration: 21d 28m
+  URL: https://github.com/apache/doris-thirdparty/actions/runs/25907101871
+
+
+Repository: apache/dubbo-go-pixiu
+--------------------------------------------------------------------------------
+  Workflow: CI
+  Run ID: #5557 (26380872414)
+  Branch: fix/mcp-clear-content-length-header (2c11001)
+  Queued since: 2026-05-25 02:59:41 UTC
+  Duration: 11d 5h 23m
+  URL: https://github.com/apache/dubbo-go-pixiu/actions/runs/26380872414
+
+  Workflow: CI
+  Run ID: #5558 (26435641504)
+  Branch: write-unit-tests/integration-tests (8e102a4)
+  Queued since: 2026-05-26 06:13:15 UTC
+  Duration: 10d 2h 9m
+  URL: https://github.com/apache/dubbo-go-pixiu/actions/runs/26435641504
+
+
+Repository: apache/fineract
+--------------------------------------------------------------------------------
+  Workflow: Fineract Signed Commits Check
+  Run ID: #94 (21838207325)
+  Branch: FINERACT-1956/antora-skeleton (50b7068)
+  Queued since: 2026-02-09 19:48:11 UTC
+  Duration: 115d 12h 28m
+  URL: https://github.com/apache/fineract/actions/runs/21838207325
+
+
+Repository: apache/fluss
+--------------------------------------------------------------------------------
+  Workflow: Check License
+  Run ID: #7205 (25907175953)
+  Branch: feat/fix-partition-pruning-types (e83a839)
+  Queued since: 2026-05-15 08:00:33 UTC
+  Duration: 21d 29m
+  URL: https://github.com/apache/fluss/actions/runs/25907175953
+
+  Workflow: Check Documentation
+  Run ID: #2484 (26437784208)
+  Branch: org-names (61bcb19)
+  Queued since: 2026-05-26 07:08:51 UTC
+  Duration: 10d 1h 21m
+  URL: https://github.com/apache/fluss/actions/runs/26437784208
+
+  Workflow: CI
+  Run ID: #8021 (26445751067)
+  Branch: download-snapshot-for-standby (1b13ac8)
+  Queued since: 2026-05-26 10:03:24 UTC
+  Duration: 9d 22h 26m
+  URL: https://github.com/apache/fluss/actions/runs/26445751067
+
+  Workflow: Check License
+  Run ID: #7364 (26447033944)
+  Branch: fix-3377 (518de3e)
+  Queued since: 2026-05-26 10:31:42 UTC
+  Duration: 9d 21h 58m
+  URL: https://github.com/apache/fluss/actions/runs/26447033944
+
+  Workflow: Check Documentation
+  Run ID: #2487 (26447033984)
+  Branch: fix-3377 (518de3e)
+  Queued since: 2026-05-26 10:31:42 UTC
+  Duration: 9d 21h 58m
+  URL: https://github.com/apache/fluss/actions/runs/26447033984
+
+
+Repository: apache/fluss-website
+--------------------------------------------------------------------------------
+  Workflow: Website Deploy
+  Run ID: #348 (26443268860)
+  Branch: main (bb4b548)
+  Queued since: 2026-05-26 09:11:14 UTC
+  Duration: 9d 23h 19m
+  URL: https://github.com/apache/fluss-website/actions/runs/26443268860
+
+
+Repository: apache/fory
+--------------------------------------------------------------------------------
+  Workflow: ❄️ Lint
+  Run ID: #6213 (26446631565)
+  Branch: enhance_java_class_checks (cd10d45)
+  Queued since: 2026-05-26 10:22:50 UTC
+  Duration: 9d 22h 5m
+  URL: https://github.com/apache/fory/actions/runs/26446631565
+
+
+Repository: apache/gluten
+--------------------------------------------------------------------------------
+  Workflow: Velox Backend Weekly Job
+  Run ID: #338 (26511779881)
+  Branch: bitmap-construct-agg (1297a33)
+  Queued since: 2026-05-27 12:41:31 UTC
+  Duration: 8d 19h 43m
+  URL: https://github.com/apache/gluten/actions/runs/26511779881
+
+  Workflow: CH Backend Code style checks
+  Run ID: #22065 (26511779884)
+  Branch: bitmap-construct-agg (1297a33)
+  Queued since: 2026-05-27 12:41:31 UTC
+  Duration: 8d 19h 43m
+  URL: https://github.com/apache/gluten/actions/runs/26511779884
+
+
+Repository: apache/grails-core
+--------------------------------------------------------------------------------
+  Workflow: CI
+  Run ID: #7570 (23008474153)
+  Branch: 7.0.x (a2d2161)
+  Queued since: 2026-03-12 14:59:58 UTC
+  Duration: 84d 17h 14m
+  URL: https://github.com/apache/grails-core/actions/runs/23008474153
+
+
+Repository: apache/gravitino
+--------------------------------------------------------------------------------
+  Workflow: build
+  Run ID: #31646 (26441262712)
+  Branch: fix-s3-credential-getfilestatus-403 (5d3025d)
+  Queued since: 2026-05-26 08:28:23 UTC
+  Duration: 9d 23h 59m
+  URL: https://github.com/apache/gravitino/actions/runs/26441262712
+
+  Workflow: build
+  Run ID: #31658 (26443068517)
+  Branch: credential-vending (67efbb9)
+  Queued since: 2026-05-26 09:06:56 UTC
+  Duration: 9d 23h 20m
+  URL: https://github.com/apache/gravitino/actions/runs/26443068517
+
+  Workflow: build
+  Run ID: #31670 (26446199831)
+  Branch: flink-view (173a144)
+  Queued since: 2026-05-26 10:13:15 UTC
+  Duration: 9d 22h 14m
+  URL: https://github.com/apache/gravitino/actions/runs/26446199831
+
+
+Repository: apache/groovy
+--------------------------------------------------------------------------------
+  Workflow: Build and test for coverage
+  Run ID: #5636 (25906883970)
+  Branch: master (e0a42c4)
+  Queued since: 2026-05-15 07:51:19 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/groovy/actions/runs/25906883970
+
+  Workflow: Performance check
+  Run ID: #1309 (25906883949)
+  Branch: master (e0a42c4)
+  Queued since: 2026-05-15 07:51:19 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/groovy/actions/runs/25906883949
+
+  Workflow: Validate GitHub Actions
+  Run ID: #32 (25906883940)
+  Branch: master (e0a42c4)
+  Queued since: 2026-05-15 07:51:19 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/groovy/actions/runs/25906883940
+
+  Workflow: Generate SNAPSHOT artifacts
+  Run ID: #2585 (25906883944)
+  Branch: master (e0a42c4)
+  Queued since: 2026-05-15 07:51:19 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/groovy/actions/runs/25906883944
+
+  Workflow: Build and test for coverage
+  Run ID: #5637 (25906985172)
+  Branch: master (9a37d12)
+  Queued since: 2026-05-15 07:54:34 UTC
+  Duration: 21d 21m
+  URL: https://github.com/apache/groovy/actions/runs/25906985172
+
+  Workflow: Performance check
+  Run ID: #1310 (25906985189)
+  Branch: master (9a37d12)
+  Queued since: 2026-05-15 07:54:34 UTC
+  Duration: 21d 21m
+  URL: https://github.com/apache/groovy/actions/runs/25906985189
+
+  Workflow: Generate SNAPSHOT artifacts
+  Run ID: #2586 (25906985166)
+  Branch: master (9a37d12)
+  Queued since: 2026-05-15 07:54:34 UTC
+  Duration: 21d 21m
+  URL: https://github.com/apache/groovy/actions/runs/25906985166
+
+
+Repository: apache/hive
+--------------------------------------------------------------------------------
+  Workflow: Build CI with different platforms/configs
+  Run ID: #13638 (25906801603)
+  Branch: split-objectstore (5b00a98)
+  Queued since: 2026-05-15 07:48:50 UTC
+  Duration: 21d 24m
+  URL: https://github.com/apache/hive/actions/runs/25906801603
+
+
+Repository: apache/hudi
+--------------------------------------------------------------------------------
+  Workflow: Azure CI
+  Run ID: #148658 (25906722025)
+  Branch: master (071b3f1)
+  Queued since: 2026-05-15 07:46:24 UTC
+  Duration: 21d 31m
+  URL: https://github.com/apache/hudi/actions/runs/25906722025
+
+  Workflow: Azure CI
+  Run ID: #148661 (25906777004)
+  Branch: master (071b3f1)
+  Queued since: 2026-05-15 07:48:04 UTC
+  Duration: 21d 29m
+  URL: https://github.com/apache/hudi/actions/runs/25906777004
+
+  Workflow: Scheduled Workflow
+  Run ID: #116563 (25906784869)
+  Branch: master (071b3f1)
+  Queued since: 2026-05-15 07:48:19 UTC
+  Duration: 21d 29m
+  URL: https://github.com/apache/hudi/actions/runs/25906784869
+
+  Workflow: Azure CI
+  Run ID: #148666 (25907046413)
+  Branch: master (071b3f1)
+  Queued since: 2026-05-15 07:56:31 UTC
+  Duration: 21d 21m
+  URL: https://github.com/apache/hudi/actions/runs/25907046413
+
+  Workflow: Azure CI
+  Run ID: #148667 (25907180746)
+  Branch: master (071b3f1)
+  Queued since: 2026-05-15 08:00:40 UTC
+  Duration: 21d 17m
+  URL: https://github.com/apache/hudi/actions/runs/25907180746
+
+
+Repository: apache/iceberg
+--------------------------------------------------------------------------------
+  Workflow: Run License Check
+  Run ID: #9978 (15249259282)
+  Branch: fix_issue13103 (e300f50)
+  Queued since: 2025-05-26 08:00:48 UTC
+  Duration: 375d 20m
+  URL: https://github.com/apache/iceberg/actions/runs/15249259282
+
+  Workflow: Open-API
+  Run ID: #5066 (15249259256)
+  Branch: fix_issue13103 (e300f50)
+  Queued since: 2025-05-26 08:00:48 UTC
+  Duration: 375d 20m
+  URL: https://github.com/apache/iceberg/actions/runs/15249259256
+
+  Workflow: Java CI
+  Run ID: #33840 (15249259247)
+  Branch: fix_issue13103 (e300f50)
+  Queued since: 2025-05-26 08:00:48 UTC
+  Duration: 375d 20m
+  URL: https://github.com/apache/iceberg/actions/runs/15249259247
+
+  Workflow: Docs Build CI
+  Run ID: #1034 (24175346073)
+  Branch: fix/15811-gradle-compile-to-implementation (0a39a0f)
+  Queued since: 2026-04-09 06:08:55 UTC
+  Duration: 57d 2h 12m
+  URL: https://github.com/apache/iceberg/actions/runs/24175346073
+
+  Workflow: GitHub Actions Security Analysis with zizmor 🌈
+  Run ID: #355 (24175346072)
+  Branch: fix/15811-gradle-compile-to-implementation (0a39a0f)
+  Queued since: 2026-04-09 06:08:55 UTC
+  Duration: 57d 2h 12m
+  URL: https://github.com/apache/iceberg/actions/runs/24175346072
+
+  Workflow: Run License Check
+  Run ID: #18322 (24175346054)
+  Branch: fix/15811-gradle-compile-to-implementation (0a39a0f)
+  Queued since: 2026-04-09 06:08:55 UTC
+  Duration: 57d 2h 12m
+  URL: https://github.com/apache/iceberg/actions/runs/24175346054
+
+  Workflow: CodeQL
+  Run ID: #1838 (24175346049)
+  Branch: fix/15811-gradle-compile-to-implementation (0a39a0f)
+  Queued since: 2026-04-09 06:08:55 UTC
+  Duration: 57d 2h 12m
+  URL: https://github.com/apache/iceberg/actions/runs/24175346049
+
+  Workflow: Pull Request Labeler
+  Run ID: #44419 (25907367047)
+  Branch: flink_shredded_varisnt_fileformat (0e376f4)
+  Queued since: 2026-05-15 08:06:43 UTC
+  Duration: 21d 14m
+  URL: https://github.com/apache/iceberg/actions/runs/25907367047
+
+  Workflow: Java CI
+  Run ID: #44178 (25907367219)
+  Branch: flink_shredded_varisnt_fileformat (0e376f4)
+  Queued since: 2026-05-15 08:06:44 UTC
+  Duration: 21d 14m
+  URL: https://github.com/apache/iceberg/actions/runs/25907367219
+
+  Workflow: Flink CI
+  Run ID: #34730 (26381612216)
+  Branch: ebi/iceberg-partition-public (02fbc95)
+  Queued since: 2026-05-25 03:28:16 UTC
+  Duration: 11d 4h 52m
+  URL: https://github.com/apache/iceberg/actions/runs/26381612216
+
+
+Repository: apache/incubator-kie-drools
+--------------------------------------------------------------------------------
+  Workflow: Split Package Detection
+  Run ID: #1207 (25906780079)
+  Branch: test_incremental_new (dfca12f)
+  Queued since: 2026-05-15 07:48:10 UTC
+  Duration: 21d 26m
+  URL: https://github.com/apache/incubator-kie-drools/actions/runs/25906780079
+
+  Workflow: Run Apache RAT check
+  Run ID: #358 (25906780057)
+  Branch: test_incremental_new (dfca12f)
+  Queued since: 2026-05-15 07:48:10 UTC
+  Duration: 21d 26m
+  URL: https://github.com/apache/incubator-kie-drools/actions/runs/25906780057
+
+
+Repository: apache/incubator-kie-tools
+--------------------------------------------------------------------------------
+  Workflow: CI :: CodeQL
+  Run ID: #9307 (25906994480)
+  Branch: spring-boot-4_0 (c38e95a)
+  Queued since: 2026-05-15 07:54:54 UTC
+  Duration: 21d 27m
+  URL: https://github.com/apache/incubator-kie-tools/actions/runs/25906994480
+
+  Workflow: CI :: License headers
+  Run ID: #2922 (25907009091)
+  Branch: spring-boot-4_0 (c38e95a)
+  Queued since: 2026-05-15 07:55:20 UTC
+  Duration: 21d 26m
+  URL: https://github.com/apache/incubator-kie-tools/actions/runs/25907009091
+
+  Workflow: CI :: Build
+  Run ID: #9513 (25907009084)
+  Branch: spring-boot-4_0 (c38e95a)
+  Queued since: 2026-05-15 07:55:20 UTC
+  Duration: 21d 26m
+  URL: https://github.com/apache/incubator-kie-tools/actions/runs/25907009084
+
+  Workflow: CI :: CodeQL
+  Run ID: #9308 (25907043937)
+  Branch: spring-boot-4_0 (4185a0e)
+  Queued since: 2026-05-15 07:56:27 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/incubator-kie-tools/actions/runs/25907043937
+
+  Workflow: CI :: Build
+  Run ID: #9514 (25907043940)
+  Branch: spring-boot-4_0 (4185a0e)
+  Queued since: 2026-05-15 07:56:27 UTC
+  Duration: 21d 25m
+  URL: https://github.com/apache/incubator-kie-tools/actions/runs/25907043940
+
+
+Repository: apache/incubator-pegasus-website
+--------------------------------------------------------------------------------
+  Workflow: Build Jekyll site
+  Run ID: #528 (15249446200)
+  Branch: EnCPlusPlusClient (b90c27d)
+  Queued since: 2025-05-26 08:13:32 UTC
+  Duration: 375d 10m
+  URL: https://github.com/apache/incubator-pegasus-website/actions/runs/15249446200
+
+
+Repository: apache/kafka
+--------------------------------------------------------------------------------
+  Workflow: CI
+  Run ID: #25185 (21835132204)
+  Branch: KAFKA-19960-4.2 (fcbe124)
+  Queued since: 2026-02-09 17:48:58 UTC
+  Duration: 115d 14h 25m
+  URL: https://github.com/apache/kafka/actions/runs/21835132204
+
+  Workflow: Pull Request Reviewed
+  Run ID: #25027 (23428593903)
+  Branch: KAFKA-19937 (90e68c9)
+  Queued since: 2026-03-23 08:42:14 UTC
+  Duration: 73d 23h 32m
+  URL: https://github.com/apache/kafka/actions/runs/23428593903
+
+  Workflow: Build and Push Release Candidate Docker Image
+  Run ID: #108 (25048302893)
+  Branch: 4.3 (64a4ee5)
+  Queued since: 2026-04-28 10:43:44 UTC
+  Duration: 37d 21h 30m
+  URL: https://github.com/apache/kafka/actions/runs/25048302893
+
+  Workflow: Pull Request Reviewed
+  Run ID: #28633 (26438115470)
+  Branch: KAFKA-17689-DeleteTopicTest (2353411)
+  Queued since: 2026-05-26 07:16:54 UTC
+  Duration: 10d 57m
+  URL: https://github.com/apache/kafka/actions/runs/26438115470
+
+  Workflow: Pull Request Reviewed
+  Run ID: #28635 (26440521534)
+  Branch: KAFKA-17689-DeleteTopicTest (2353411)
+  Queued since: 2026-05-26 08:12:00 UTC
+  Duration: 10d 2m
+  URL: https://github.com/apache/kafka/actions/runs/26440521534
+
+
+Repository: apache/nifi-minifi-cpp
+--------------------------------------------------------------------------------
+  Workflow: MiNiFi-CPP CI
+  Run ID: #7724 (25907090153)
+  Branch: multimodal_llama (15ca989)
+  Queued since: 2026-05-15 07:57:53 UTC
+  Duration: 21d 19m
+  URL: https://github.com/apache/nifi-minifi-cpp/actions/runs/25907090153
+
+
+Repository: apache/nuttx
+--------------------------------------------------------------------------------
+  Workflow: Check
+  Run ID: #37190 (15446192384)
+  Branch: mpfs_optimize_perf_gettime_and_udelay (b66f8d4)
+  Queued since: 2025-06-04 15:22:58 UTC
+  Duration: 365d 16h 59m
+  URL: https://github.com/apache/nuttx/actions/runs/15446192384
+
+
+Repository: apache/ofbiz-framework
+--------------------------------------------------------------------------------
+  Workflow: Dependency Review
+  Run ID: #735 (26447290859)
+  Branch: fix-po-shipment-not-set-to-received-with-rejected-units (a28242b)
+  Queued since: 2026-05-26 10:37:27 UTC
+  Duration: 9d 21h 40m
+  URL: https://github.com/apache/ofbiz-framework/actions/runs/26447290859
+
+
+Repository: apache/ozone
+--------------------------------------------------------------------------------
+  Workflow: build-branch
+  Run ID: #49202 (26427112514)
+  Branch: HDDS-15349_remove_ignorepipeline_from_OMKeyInfo (b6f7d7e)
+  Queued since: 2026-05-26 01:28:59 UTC
+  Duration: 10d 6h 53m
+  URL: https://github.com/apache/ozone/actions/runs/26427112514
+
+
+Repository: apache/paimon
+--------------------------------------------------------------------------------
+  Workflow: Check File Size
+  Run ID: #6576 (26446794561)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794561
+
+  Workflow: End to End Tests Flink 2.x on JDK 11
+  Run ID: #9391 (26446794562)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794562
+
+  Workflow: UTCase and ITCase Spark 3.x
+  Run ID: #12774 (26446794474)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794474
+
+  Workflow: UTCase and ITCase Others
+  Run ID: #24809 (26446794554)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794554
+
+  Workflow: docs-tests
+  Run ID: #9790 (26446794634)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794634
+
+  Workflow: UTCase and ITCase Flink 1.x Others
+  Run ID: #3372 (26446794563)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794563
+
+  Workflow: End to End Tests Flink 1.x
+  Run ID: #9393 (26446794555)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794555
+
+  Workflow: UTCase and ITCase Others on JDK 11
+  Run ID: #10906 (26446794636)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794636
+
+  Workflow: UTCase and ITCase Spark 4.x
+  Run ID: #12805 (26446794476)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794476
+
+  Workflow: UTCase and ITCase Flink 2.x on JDK 11
+  Run ID: #9085 (26446794466)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794466
+
+  Workflow: Check licensing
+  Run ID: #25270 (26446794557)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794557
+
+  Workflow: UTCase and ITCase Flink 1.x Common
+  Run ID: #3372 (26446794553)
+  Branch: codex/row-id-reassign-conflict (923532c)
+  Queued since: 2026-05-26 10:26:28 UTC
+  Duration: 9d 21h 59m
+  URL: https://github.com/apache/paimon/actions/runs/26446794553
+
+
+Repository: apache/pinot
+--------------------------------------------------------------------------------
+  Workflow: Pinot Compatibility Checks
+  Run ID: #1110 (26446201339)
+  Branch: skip-task-check-in-update (3ee4885)
+  Queued since: 2026-05-26 10:13:18 UTC
+  Duration: 9d 22h 2m
+  URL: https://github.com/apache/pinot/actions/runs/26446201339
+
+  Workflow: Pinot Dependencies
+  Run ID: #12266 (26511922656)
+  Branch: fix/column-to-column-comparison-rewrite (5f30461)
+  Queued since: 2026-05-27 12:45:16 UTC
+  Duration: 8d 19h 30m
+  URL: https://github.com/apache/pinot/actions/runs/26511922656
+
+
+Repository: apache/polaris
+--------------------------------------------------------------------------------
+  Workflow: PR#4544 NoSQL: Scope authz Jackson privilege resolution to each mapper
+  Run ID: #2389 (26445986295)
+  Branch: nosql-authz-jackson-mapper-scope (ad91f26)
+  Queued since: 2026-05-26 10:08:37 UTC
+  Duration: 9d 22h 20m
+  URL: https://github.com/apache/polaris/actions/runs/26445986295
+
+
+Repository: apache/pulsar
+--------------------------------------------------------------------------------
+  Workflow: Pull Request Labeler
+  Run ID: #11208 (23509950484)
+  Branch: pip/pip-465-split-connectors (03897fe)
+  Queued since: 2026-03-24 20:07:56 UTC
+  Duration: 72d 12h 9m
+  URL: https://github.com/apache/pulsar/actions/runs/23509950484
+
+  Workflow: Pulsar CI
+  Run ID: #28584 (25907011409)
+  Branch: dev/ml_read_entries (fab162f)
+  Queued since: 2026-05-15 07:55:24 UTC
+  Duration: 21d 22m
+  URL: https://github.com/apache/pulsar/actions/runs/25907011409
+
+  Workflow: Pulsar CI Flaky
+  Run ID: #21754 (25907094352)
+  Branch: codex/fix-offload-extra-config-merge-2 (9f975a8)
+  Queued since: 2026-05-15 07:58:01 UTC
+  Duration: 21d 19m
+  URL: https://github.com/apache/pulsar/actions/runs/25907094352
+
+  Workflow: Pulsar CI
+  Run ID: #28715 (26445847704)
+  Branch: feature/parameterise-kubernetesServiceDomainSuffix (e46ecef)
+  Queued since: 2026-05-26 10:05:31 UTC
+  Duration: 9d 22h 11m
+  URL: https://github.com/apache/pulsar/actions/runs/26445847704
+
+  Workflow: Semantic Pull Request
+  Run ID: #14642 (26445847579)
+  Branch: feature/parameterise-kubernetesServiceDomainSuffix (e46ecef)
+  Queued since: 2026-05-26 10:05:31 UTC
+  Duration: 9d 22h 11m
+  URL: https://github.com/apache/pulsar/actions/runs/26445847579
+
+  Workflow: Pulsar CI Flaky
+  Run ID: #21884 (26445847540)
+  Branch: feature/parameterise-kubernetesServiceDomainSuffix (e46ecef)
+  Queued since: 2026-05-26 10:05:31 UTC
+  Duration: 9d 22h 11m
+  URL: https://github.com/apache/pulsar/actions/runs/26445847540
+
+
+Repository: apache/ratis
+--------------------------------------------------------------------------------
+  Workflow: build-branch
+  Run ID: #745 (25253740687)
+  Branch: RATIS-2511 (2c1e333)
+  Queued since: 2026-05-02 14:08:50 UTC
+  Duration: 33d 18h 9m
+  URL: https://github.com/apache/ratis/actions/runs/25253740687
+
+
+Repository: apache/rocketmq
+--------------------------------------------------------------------------------
+  Workflow: Build and Run Tests by Bazel
+  Run ID: #6232 (14725305912)
+  Branch: fix_query_index_bug (e47d185)
+  Queued since: 2025-04-29 07:02:53 UTC
+  Duration: 402d 1h 15m
+  URL: https://github.com/apache/rocketmq/actions/runs/14725305912
+
+
+Repository: apache/seatunnel
+--------------------------------------------------------------------------------
+  Workflow: Pull Request Labeler
+  Run ID: #10633 (25906736226)
+  Branch: feature/cdc-sqlserver-schema-evolution-on-flink (830a124)
+  Queued since: 2026-05-15 07:46:49 UTC
+  Duration: 21d 31m
+  URL: https://github.com/apache/seatunnel/actions/runs/25906736226
+
+  Workflow: On pull request update
+  Run ID: #15278 (25906736245)
+  Branch: feature/cdc-sqlserver-schema-evolution-on-flink (830a124)
+  Queued since: 2026-05-15 07:46:49 UTC
+  Duration: 21d 31m
+  URL: https://github.com/apache/seatunnel/actions/runs/25906736245
+
+  Workflow: On pull request update
+  Run ID: #15280 (25906906057)
+  Branch: feature/stip24_edge_socket (f8c3b69)
+  Queued since: 2026-05-15 07:52:01 UTC
+  Duration: 21d 26m
+  URL: https://github.com/apache/seatunnel/actions/runs/25906906057
+
+  Workflow: Pull Request Labeler
+  Run ID: #10635 (25906906035)
+  Branch: feature/stip24_edge_socket (f8c3b69)
+  Queued since: 2026-05-15 07:52:01 UTC
+  Duration: 21d 26m
+  URL: https://github.com/apache/seatunnel/actions/runs/25906906035
+
+
+Repository: apache/shardingsphere
+--------------------------------------------------------------------------------
+  Workflow: Required - Check
+  Run ID: #20660 (26444943038)
+  Branch: dev-0526 (930f40f)
+  Queued since: 2026-05-26 09:46:21 UTC
+  Duration: 9d 22h 30m
+  URL: https://github.com/apache/shardingsphere/actions/runs/26444943038
+
+  Workflow: E2E - SQL
+  Run ID: #17336 (26444942956)
+  Branch: dev-0526 (930f40f)
+  Queued since: 2026-05-26 09:46:21 UTC
+  Duration: 9d 22h 30m
+  URL: https://github.com/apache/shardingsphere/actions/runs/26444942956
+
+  Workflow: E2E - Operation
+  Run ID: #17669 (26444943076)
+  Branch: dev-0526 (930f40f)
+  Queued since: 2026-05-26 09:46:21 UTC
+  Duration: 9d 22h 30m
+  URL: https://github.com/apache/shardingsphere/actions/runs/26444943076
+
+  Workflow: CI
+  Run ID: #48421 (26444942828)
+  Branch: dev-0526 (930f40f)
+  Queued since: 2026-05-26 09:46:21 UTC
+  Duration: 9d 22h 30m
+  URL: https://github.com/apache/shardingsphere/actions/runs/26444942828
+
+
+Repository: apache/spark-connect-swift
+--------------------------------------------------------------------------------
+  Workflow: Publish Image
+  Run ID: #7 (23358680297)
+  Branch: main (f415742)
+  Queued since: 2026-03-20 19:12:55 UTC
+  Duration: 76d 13h 17m
+  URL: https://github.com/apache/spark-connect-swift/actions/runs/23358680297
+
+
+Repository: apache/superset
+--------------------------------------------------------------------------------
+  Workflow: Dependency Review
+  Run ID: #18109 (14523351434)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:29:59 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351434
+
+  Workflow: Prefer TypeScript
+  Run ID: #27596 (14523351453)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:29:59 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351453
+
+  Workflow: Superset CLI tests
+  Run ID: #35898 (14523351450)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:29:59 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351450
+
+  Workflow: Frontend Build CI (unit tests, linting & sanity checks)
+  Run ID: #66186 (14523351496)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351496
+
+  Workflow: E2E
+  Run ID: #68036 (14523351492)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351492
+
+  Workflow: CodeQL
+  Run ID: #15735 (14523351491)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351491
+
+  Workflow: Check python dependencies
+  Run ID: #4333 (14523351490)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351490
+
+  Workflow: Translations
+  Run ID: #66129 (14523351484)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351484
+
+  Workflow: License Template Check
+  Run ID: #40114 (14523351475)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351475
+
+  Workflow: Validate All GitHub Actions
+  Run ID: #10305 (14523351482)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351482
+
+  Workflow: Hold Label Check
+  Run ID: #24489 (14523351471)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351471
+
+  Workflow: Python-Unit
+  Run ID: #54935 (14523351469)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351469
+
+  Workflow: Python Presto/Hive
+  Run ID: #56876 (14523351468)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351468
+
+  Workflow: Python-Integration
+  Run ID: #47509 (14523351467)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351467
+
+  Workflow: PR Lint
+  Run ID: #62365 (14523351466)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351466
+
+  Workflow: pre-commit checks
+  Run ID: #14336 (14523351461)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351461
+
+  Workflow: Build & publish docker images
+  Run ID: #53246 (14523351460)
+  Branch: embed-code-option-on-dashboard-charts (8ed8e05)
+  Queued since: 2025-04-17 19:30:00 UTC
+  Duration: 413d 12h 46m
+  URL: https://github.com/apache/superset/actions/runs/14523351460
+
+  Workflow: Python Presto/Hive
+  Run ID: #64061 (18396541699)
+  Branch: oxc-linter-migration (cd71dc4)
+  Queued since: 2025-10-10 04:33:49 UTC
+  Duration: 238d 3h 43m
+  URL: https://github.com/apache/superset/actions/runs/18396541699
+
+  Workflow: E2E
+  Run ID: #82588 (21768935245)
+  Branch: 6.0 (0d9d427)
+  Queued since: 2026-02-06 22:59:53 UTC
+  Duration: 118d 9h 16m
+  URL: https://github.com/apache/superset/actions/runs/21768935245
+
+  Workflow: Translations
+  Run ID: #90118 (25906739595)
+  Branch: polish-ux-01-button-caps (aa2f50c)
+  Queued since: 2026-05-15 07:46:55 UTC
+  Duration: 21d 29m
+  URL: https://github.com/apache/superset/actions/runs/25906739595
+
+  Workflow: Hold Label Check
+  Run ID: #70865 (25906739569)
+  Branch: polish-ux-01-button-caps (aa2f50c)
+  Queued since: 2026-05-15 07:46:55 UTC
+  Duration: 21d 29m
+  URL: https://github.com/apache/superset/actions/runs/25906739569
+
+  Workflow: Superset Extensions CLI Package Tests
+  Run ID: #18637 (25906739659)
+  Branch: polish-ux-01-button-caps (aa2f50c)
+  Queued since: 2026-05-15 07:46:56 UTC
+  Duration: 21d 29m
+  URL: https://github.com/apache/superset/actions/runs/25906739659
+
+  Workflow: Superset App CLI tests
+  Run ID: #18949 (25906739653)
+  Branch: polish-ux-01-button-caps (aa2f50c)
+  Queued since: 2026-05-15 07:46:56 UTC
+  Duration: 21d 29m
+  URL: https://github.com/apache/superset/actions/runs/25906739653
+
+  Workflow: CodeQL
+  Run ID: #38783 (25906739641)
+  Branch: polish-ux-01-button-caps (aa2f50c)
+  Queued since: 2026-05-15 07:46:56 UTC
+  Duration: 21d 29m
+  URL: https://github.com/apache/superset/actions/runs/25906739641
+
+  Workflow: E2E
+  Run ID: #92031 (25906739644)
+  Branch: polish-ux-01-button-caps (aa2f50c)
+  Queued since: 2026-05-15 07:46:56 UTC
+  Duration: 21d 29m
+  URL: https://github.com/apache/superset/actions/runs/25906739644
+
+  Workflow: SupersetBot Workflow
+  Run ID: #98014 (25906826961)
+  Branch: master (2b71d96)
+  Queued since: 2026-05-15 07:49:38 UTC
+  Duration: 21d 27m
+  URL: https://github.com/apache/superset/actions/runs/25906826961
+
+  Workflow: SupersetBot Workflow
+  Run ID: #98015 (25906834575)
+  Branch: master (2b71d96)
+  Queued since: 2026-05-15 07:49:53 UTC
+  Duration: 21d 26m
+  URL: https://github.com/apache/superset/actions/runs/25906834575
+
+  Workflow: SupersetBot Workflow
+  Run ID: #98017 (25906916985)
+  Branch: master (2b71d96)
+  Queued since: 2026-05-15 07:52:23 UTC
+  Duration: 21d 24m
+  URL: https://github.com/apache/superset/actions/runs/25906916985
+
+  Workflow: SupersetBot Workflow
+  Run ID: #98018 (25906938941)
+  Branch: master (2b71d96)
+  Queued since: 2026-05-15 07:53:03 UTC
+  Duration: 21d 23m
+  URL: https://github.com/apache/superset/actions/runs/25906938941
+
+
+Repository: apache/syncope
+--------------------------------------------------------------------------------
+  Workflow: MariaDB
+  Run ID: #4641 (26405781795)
+  Branch: 4_1_X (89776f7)
+  Queued since: 2026-05-25 14:34:39 UTC
+  Duration: 10d 17h 41m
+  URL: https://github.com/apache/syncope/actions/runs/26405781795
+
+
+Repository: apache/texera
+--------------------------------------------------------------------------------
+  Workflow: Comment commands
+  Run ID: #243 (25907108592)
+  Branch: main (1ea368d)
+  Queued since: 2026-05-15 07:58:28 UTC
+  Duration: 21d 18m
+  URL: https://github.com/apache/texera/actions/runs/25907108592
+
+  Workflow: Pull Request Labeler
+  Run ID: #4199 (25907117700)
+  Branch: fix/RolesAllowedUnenforced (93f40f3)
+  Queued since: 2026-05-15 07:58:46 UTC
+  Duration: 21d 18m
+  URL: https://github.com/apache/texera/actions/runs/25907117700
+
+  Workflow: Required Checks
+  Run ID: #1712 (25907118370)
+  Branch: fix/RolesAllowedUnenforced (93f40f3)
+  Queued since: 2026-05-15 07:58:47 UTC
+  Duration: 21d 18m
+  URL: https://github.com/apache/texera/actions/runs/25907118370
+
+
+Repository: apache/tomcat-native
+--------------------------------------------------------------------------------
+  Workflow: Makefile CI
+  Run ID: #152 (25906674521)
+  Branch: main (773018a)
+  Queued since: 2026-05-15 07:45:03 UTC
+  Duration: 21d 29m
+  URL: https://github.com/apache/tomcat-native/actions/runs/25906674521
+
+
+Repository: apache/tvm
+--------------------------------------------------------------------------------
+  Workflow: tvm-bot
+  Run ID: #156798 (22727561104)
+  Branch: main (dd7e260)
+  Queued since: 2026-03-05 16:38:43 UTC
+  Duration: 91d 15h 38m
+  URL: https://github.com/apache/tvm/actions/runs/22727561104
+
+================================================================================
+SUMMARY
+================================================================================
+Total repositories affected: 55
+Total queued runs: 249
+Average queue time: 76d 3h 32m
+Longest queue time: 413d 12h 46m (apache/superset)
