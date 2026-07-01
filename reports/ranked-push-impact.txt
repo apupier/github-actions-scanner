@@ -21,6 +21,7 @@ PR provided: https://github.com/apache/dubbo/pull/16367
        Dependabot: ✗ no dependabot
        Flagged workflows (1):
          - ci.yml
+Seems they never use branches directly on the Apache repo so no impact currently
 
 #  3  apache/arrow
        Score:         38564
@@ -32,6 +33,7 @@ PR provided: https://github.com/apache/dubbo/pull/16367
          - package_odbc.yml
          - release.yml
          - verify_rc.yml
+false-positive, the push is configured for tags
 
 #  4  apache/apisix
        Score:         34618
@@ -44,6 +46,7 @@ PR provided: https://github.com/apache/dubbo/pull/16367
          - link-check.yml
          - lint.yml
          - push-dev-image-on-commit.yml
+PR https://github.com/apache/apisix/pull/13641
 
 #  5  apache/zookeeper
        Score:         27937
@@ -53,6 +56,7 @@ PR provided: https://github.com/apache/dubbo/pull/16367
        Dependabot: ✗ no dependabot
        Flagged workflows (1):
          - e2e.yaml
+Not using branch directly on the repo so fine
 
 #  6  apache/beam
        Score:         27477
@@ -71,6 +75,7 @@ PR provided: https://github.com/apache/dubbo/pull/16367
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - publish-iceberg-rest-fixture-docker.yml
+This workflow is disabled
 
 #  8  apache/casbin
        Score:         24205
@@ -80,6 +85,7 @@ PR provided: https://github.com/apache/dubbo/pull/16367
        Dependabot: ✗ no dependabot
        Flagged workflows (1):
          - source-release-draft.yml
+False positive, configured on tags
 
 #  9  apache/doris
        Score:         23762
@@ -90,6 +96,8 @@ PR provided: https://github.com/apache/dubbo/pull/16367
        Flagged workflows (2):
          - code-checks.yml
          - lfs-warning.yml
+code-checks.yml disabled
+PR provided https://github.com/apache/doris/pull/65121
 
 # 10  apache/jmeter
        Score:         21770
@@ -118,6 +126,7 @@ PR provided: https://github.com/apache/dubbo/pull/16367
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - docs_pr.yaml
+PR provided https://github.com/apache/datafusion/pull/23278
 
 # 13  apache/answer
        Score:         18743
@@ -267,6 +276,7 @@ mitigation provided: https://github.com/apache/nifi/pull/11376
          - check-sql-pg-script.yml
          - check-sql-script.yml
          - dead-link-checker.yaml
+PR provided: https://github.com/apache/linkis/pull/5451
 
 # 26  apache/tika
        Score:          9338
@@ -297,6 +307,7 @@ mitigation provided: https://github.com/apache/nifi/pull/11376
          - ci.yml
          - rat.yml
          - ui.yml
+PR provided https://github.com/apache/cloudstack/pull/13522
 
 # 29  apache/dubbo-admin
        Score:          8867
@@ -365,6 +376,7 @@ mitigation provided: https://github.com/apache/nifi/pull/11376
          - utitcase-spark-3.x.yml
          - utitcase-spark-4.x.yml
          - utitcase.yml
+Almost not using branches on apache repo
 
 # 35  apache/singa
        Score:          6341
@@ -450,6 +462,7 @@ mitigation provided: https://github.com/apache/nifi/pull/11376
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - build.yml
+PR provided https://github.com/apache/artemis/pull/6555
 
 # 43  apache/devlake
        Score:          5090
