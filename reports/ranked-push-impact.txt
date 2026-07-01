@@ -1,0 +1,4618 @@
+⚠️  Impact ranking for 485 repositories (732 flagged workflow(s) total)
+
+Scoring: stars + forks×2 + recency bonus (≤30d +500, ≤90d +200) × 1.5 if dependabot/renovate
+================================================================================
+
+#  1  apache/dubbo
+       Score:         94864
+       Stars:        41,522
+       Forks:        26,421
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build-and-test-pr.yml
+
+#  2  apache/flink
+       Score:         54597
+       Stars:        26,131
+       Forks:        13,983
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#  3  apache/arrow
+       Score:         38564
+       Stars:        16,891
+       Forks:         4,159
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (3):
+         - package_odbc.yml
+         - release.yml
+         - verify_rc.yml
+
+#  4  apache/apisix
+       Score:         34618
+       Stars:        16,797
+       Forks:         2,891
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (4):
+         - doc-lint.yml
+         - link-check.yml
+         - lint.yml
+         - push-dev-image-on-commit.yml
+
+#  5  apache/zookeeper
+       Score:         27937
+       Stars:        12,779
+       Forks:         7,329
+       Last push:  2026-06-25
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - e2e.yaml
+
+#  6  apache/beam
+       Score:         27477
+       Stars:         8,624
+       Forks:         4,597
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - beam_Infrastructure_SecurityLogging.yml
+
+#  7  apache/iceberg
+       Score:         24333
+       Stars:         8,998
+       Forks:         3,362
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - publish-iceberg-rest-fixture-docker.yml
+
+#  8  apache/casbin
+       Score:         24205
+       Stars:        20,213
+       Forks:         1,746
+       Last push:  2026-06-23
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - source-release-draft.yml
+
+#  9  apache/doris
+       Score:         23762
+       Stars:        15,562
+       Forks:         3,850
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - code-checks.yml
+         - lfs-warning.yml
+
+# 10  apache/jmeter
+       Score:         21770
+       Stars:         9,447
+       Forks:         2,283
+       Last push:  2026-06-26
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - gradle-wrapper-validation.yml
+         - renovate-config-lint.yaml
+
+# 11  apache/pouchdb
+       Score:         21097
+       Stars:        17,581
+       Forks:         1,508
+       Last push:  2026-06-17
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+# 12  apache/datafusion
+       Score:         20708
+       Stars:         8,927
+       Forks:         2,189
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - docs_pr.yaml
+
+# 13  apache/answer
+       Score:         18743
+       Stars:        15,579
+       Forks:         1,332
+       Last push:  2026-06-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - build-binary-for-release.yml
+         - build-image-for-latest-release.yml
+         - build-image-for-release.yml
+         - lint.yml
+
+# 14  apache/groovy
+       Score:         14649
+       Stars:         5,444
+       Forks:         1,911
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (10):
+         - codeql-analysis.yml
+         - gradle-wrapper-validation.yml
+         - groovy-build-artifacts.yml
+         - groovy-build-coverage.yml
+         - groovy-build-dist.yml
+         - groovy-build-performance.yml
+         - groovy-build-test.yml
+         - groovy-jmh-classic.yml
+         - groovy-jmh.yml
+         - groovy-rat-check.yml
+
+# 15  apache/seatunnel
+       Score:         14538
+       Stars:         9,450
+       Forks:         2,294
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - publish-docker.yaml
+         - publish-helm-chart.yaml
+
+# 16  apache/nifi
+       Score:         12570
+       Stars:         6,148
+       Forks:         2,961
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (5):
+         - build.yml
+         - code-compliance.yml
+         - docker-tests.yml
+         - integration-tests.yml
+         - system-tests.yml
+
+# 17  apache/fesod
+       Score:         11391
+       Stars:         6,080
+       Forks:           507
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - license-check.yml
+
+# 18  apache/cordova-android
+       Score:         11146
+       Stars:         3,785
+       Forks:         1,573
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - draft-release.yml
+
+# 19  apache/opendal
+       Score:         10896
+       Stars:         5,212
+       Forks:           776
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (6):
+         - release_dart.yml
+         - release_java.yml
+         - release_nodejs.yml
+         - release_python.yml
+         - release_ruby.yml
+         - release_rust.yml
+
+# 20  apache/calcite
+       Score:         10634
+       Stars:         5,140
+       Forks:         2,497
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - gradle-wrapper-validation.yml
+         - publish-website-on-release.yml
+
+# 21  apache/hertzbeat
+       Score:         10399
+       Stars:         7,299
+       Forks:         1,300
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - mcp-bashserver-test.yml
+
+# 22  apache/caldera
+       Score:         10280
+       Stars:         7,076
+       Forks:         1,352
+       Last push:  2026-06-23
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - security.yml
+
+# 23  apache/parquet-java
+       Score:          9987
+       Stars:         3,060
+       Forks:         1,549
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - ci-hadoop3.yml
+         - vector-plugins.yml
+
+# 24  apache/arrow-rs
+       Score:          9628
+       Stars:         3,511
+       Forks:         1,204
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yml
+
+# 25  apache/linkis
+       Score:          9366
+       Stars:         3,408
+       Forks:         1,168
+       Last push:  2026-06-26
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (7):
+         - build-backend.yml
+         - build-frontend.yml
+         - check-code-format.yml
+         - check-license.yml
+         - check-sql-pg-script.yml
+         - check-sql-script.yml
+         - dead-link-checker.yaml
+
+# 26  apache/tika
+       Score:          9338
+       Stars:         3,835
+       Forks:           945
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - docker-release.yml
+
+# 27  apache/dubbo-spring-boot-project
+       Score:          9291
+       Stars:         5,389
+       Forks:         1,851
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - dubbo-2.yml
+
+# 28  apache/cloudstack
+       Score:          9190
+       Stars:         2,959
+       Forks:         1,334
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (4):
+         - build.yml
+         - ci.yml
+         - rat.yml
+         - ui.yml
+
+# 29  apache/dubbo-admin
+       Score:          8867
+       Stars:         4,047
+       Forks:         2,160
+       Last push:  2026-06-28
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yaml
+
+# 30  apache/netbeans
+       Score:          8144
+       Stars:         3,071
+       Forks:           929
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - native-binary-build-launcher.yml
+
+# 31  apache/maven-mvnd
+       Score:          6634
+       Stars:         3,425
+       Forks:           249
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yaml
+
+# 32  apache/tinkerpop
+       Score:          6537
+       Stars:         2,136
+       Forks:           861
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - build-test.yml
+
+# 33  apache/dubbo-samples
+       Score:          6519
+       Stars:         2,375
+       Forks:         1,972
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - dubbo-3_2.yml
+         - dubbo-3_3.yml
+         - license.yml
+
+# 34  apache/paimon
+       Score:          6496
+       Stars:         3,320
+       Forks:         1,338
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (13):
+         - check-licensing.yml
+         - docs-tests.yml
+         - e2e-tests-flink-1.x.yml
+         - e2e-tests-flink-2.x-jdk11.yml
+         - paimon-python-checks.yml
+         - utcase-tantivy.yml
+         - utitcase-flink-1.x-common.yml
+         - utitcase-flink-1.x-others.yml
+         - utitcase-flink-2.x-jdk11.yml
+         - utitcase-jdk11.yml
+         - utitcase-spark-3.x.yml
+         - utitcase-spark-4.x.yml
+         - utitcase.yml
+
+# 35  apache/singa
+       Score:          6341
+       Stars:         3,607
+       Forks:         1,267
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - conda.yaml
+         - macOS.yaml
+         - ubuntu.yaml
+
+# 36  apache/incubator-seata-samples
+       Score:          6256
+       Stars:         2,350
+       Forks:         1,953
+       Last push:  2026-02-14
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - CI.yml
+         - E2E.yml
+
+# 37  apache/kvrocks
+       Score:          6121
+       Stars:         4,355
+       Forks:           633
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - kvrocks.yaml
+
+# 38  apache/cordova-plugin-inappbrowser
+       Score:          6053
+       Stars:         1,135
+       Forks:         2,209
+       Last push:  2026-06-28
+       Dependabot: ✗ no dependabot
+       Flagged workflows (5):
+         - android.yml
+         - chrome.yml
+         - draft-release.yml
+         - ios.yml
+         - lint.yml
+
+# 39  apache/httpcomponents-client
+       Score:          6000
+       Stars:         1,530
+       Forks:           985
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+# 40  apache/parquet-format
+       Score:          5934
+       Stars:         2,470
+       Forks:           493
+       Last push:  2026-06-22
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - test.yml
+
+# 41  apache/fory
+       Score:          5756
+       Stars:         4,412
+       Forks:           422
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (7):
+         - build-containerized-release.yml
+         - build-native-release.yml
+         - release-compiler.yaml
+         - release-csharp.yaml
+         - release-dart.yaml
+         - release-javascript.yaml
+         - release-rust.yaml
+
+# 42  apache/artemis
+       Score:          5152
+       Stars:         1,029
+       Forks:           953
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - build.yml
+
+# 43  apache/devlake
+       Score:          5090
+       Stars:         3,054
+       Forks:           768
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build-builder.yml
+
+# 44  apache/mahout
+       Score:          4786
+       Stars:         2,296
+       Forks:           995
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+# 45  apache/datafusion-ballista
+       Score:          4742
+       Stars:         2,077
+       Forks:           292
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - build.yml
+
+# 46  apache/cordova-ios
+       Score:          4722
+       Stars:         2,220
+       Forks:         1,001
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - draft-release.yml
+
+# 47  apache/cordova-plugin-camera
+       Score:          4594
+       Stars:           976
+       Forks:         1,559
+       Last push:  2026-06-28
+       Dependabot: ✗ no dependabot
+       Flagged workflows (5):
+         - android.yml
+         - chrome.yml
+         - draft-release.yml
+         - ios.yml
+         - lint.yml
+
+# 48  apache/drill
+       Score:          4495
+       Stars:         2,019
+       Forks:           988
+       Last push:  2026-06-26
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+# 49  apache/bookkeeper
+       Score:          4446
+       Stars:         2,002
+       Forks:           972
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - dead-link-checker.yaml
+
+# 50  apache/ozone
+       Score:          4428
+       Stars:         1,224
+       Forks:           614
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - post-commit.yml
+
+# 51  apache/atlas
+       Score:          4422
+       Stars:         2,116
+       Forks:           903
+       Last push:  2026-06-24
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+# 52  apache/iceberg-rust
+       Score:          4232
+       Stars:         1,331
+       Forks:           495
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - audit.yml
+         - publish.yml
+
+# 53  apache/trafficserver
+       Score:          4189
+       Stars:         1,959
+       Forks:           865
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - codeql.yml
+         - stale.yml
+
+# 54  apache/casbin-jcasbin
+       Score:          4123
+       Stars:         2,639
+       Forks:           492
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - source-release-draft.yml
+
+# 55  apache/systemds
+       Score:          4012
+       Stars:         1,091
+       Forks:           542
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release-scripts.yml
+
+# 56  apache/iceberg-python
+       Score:          3922
+       Stars:         1,079
+       Forks:           518
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - python-release.yml
+
+# 57  apache/cassandra-spark-connector
+       Score:          3809
+       Stars:         1,949
+       Forks:           930
+       Last push:  2025-04-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - main.yml
+
+# 58  apache/ranger
+       Score:          3703
+       Stars:         1,059
+       Forks:         1,072
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+# 59  apache/fluss
+       Score:          3596
+       Stars:         1,966
+       Forks:           565
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license-check.yml
+
+# 60  apache/hamilton
+       Score:          3429
+       Stars:         2,533
+       Forks:           198
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - docusaurus-gh-pages.yml
+
+# 61  apache/carbondata
+       Score:          3340
+       Stars:         1,446
+       Forks:           697
+       Last push:  2026-06-08
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build-test.yml
+
+# 62  apache/gluten
+       Score:          3322
+       Stars:         1,574
+       Forks:           624
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - build_release.yml
+         - nightly_sync.yml
+
+# 63  apache/groovy-geb
+       Score:          3206
+       Stars:         1,169
+       Forks:           234
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (6):
+         - build-check.yml
+         - check-manual.yml
+         - dockerised-cross-browser.yml
+         - gradle-wrapper-validation.yml
+         - license-check.yml
+         - local-browser.yml
+
+# 64  apache/maven-surefire
+       Score:          3160
+       Stars:           457
+       Forks:           575
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+# 65  apache/inlong
+       Score:          3135
+       Stars:         1,493
+       Forks:           571
+       Last push:  2026-06-25
+       Dependabot: ✗ no dependabot
+       Flagged workflows (10):
+         - ci_build.yml
+         - ci_chart_test.yml
+         - ci_check_format.yml
+         - ci_check_license.yml
+         - ci_docker.yml
+         - ci_ut.yml
+         - ci_ut_flink13.yml
+         - ci_ut_flink15.yml
+         - ci_ut_flink18.yml
+         - codeql_analysis.yml
+
+# 66  apache/commons-math
+       Score:          2886
+       Stars:           646
+       Forks:           389
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (3):
+         - coverage.yml
+         - maven.yml
+         - maven_legacy.yml
+
+# 67  apache/hop
+       Score:          2830
+       Stars:         1,410
+       Forks:           460
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - pr_build_code.yml
+         - pr_build_docs.yml
+
+# 68  apache/incubator-livy
+       Score:          2706
+       Stars:           958
+       Forks:           624
+       Last push:  2026-06-17
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - unit-tests.yaml
+
+# 69  apache/flink-training
+       Score:          2658
+       Stars:         1,036
+       Forks:           711
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+# 70  apache/dubbo-website
+       Score:          2598
+       Stars:           490
+       Forks:           804
+       Last push:  2026-06-23
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - link_check.yml
+
+# 71  apache/cordova-plugin-file-transfer
+       Score:          2556
+       Stars:           606
+       Forks:           875
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+# 72  apache/rocketmq-client-go
+       Score:          2503
+       Stars:         1,411
+       Forks:           446
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - tests.yaml
+
+# 73  apache/cordova-plugin-file
+       Score:          2447
+       Stars:           741
+       Forks:           753
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+# 74  apache/amoro
+       Score:          2427
+       Stars:         1,145
+       Forks:           391
+       Last push:  2026-06-25
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - helm-charts-ci.yml
+
+# 75  apache/mynewt-nimble
+       Score:          2371
+       Stars:           875
+       Forks:           498
+       Last push:  2026-06-26
+       Dependabot: ✗ no dependabot
+       Flagged workflows (5):
+         - build_all_apps.yml
+         - build_cc_target.yml
+         - build_ports.yml
+         - build_targets.yml
+         - newt_test_all.yml
+
+# 76  apache/httpcomponents-core
+       Score:          2344
+       Stars:           363
+       Forks:           350
+       Last push:  2026-06-25
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+# 77  apache/teaclave-sgx-sdk
+       Score:          2262
+       Stars:         1,228
+       Forks:           267
+       Last push:  2026-06-10
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license-check.yml
+
+# 78  apache/arrow-adbc
+       Score:          2258
+       Stars:           605
+       Forks:           200
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - csharp.yml
+         - dev_adbc.yml
+
+# 79  apache/servicecomb-service-center
+       Score:          2233
+       Stars:         1,347
+       Forks:           343
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - eventbase-ci.yml
+         - golangci-lint.yml
+         - static_check.yml
+
+# 80  apache/cassandra-nodejs-driver
+       Score:          2181
+       Stars:         1,269
+       Forks:           206
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - test.yml
+
+# 81  apache/cordova-plugin-geolocation
+       Score:          2155
+       Stars:           643
+       Forks:           656
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+# 82  apache/mynewt-core
+       Score:          2149
+       Stars:           887
+       Forks:           381
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (7):
+         - build_all_apps.yml
+         - build_blinky.yml
+         - build_bootloader.yml
+         - build_cc_target.yml
+         - build_targets.yml
+         - newt_test_all.yml
+         - remove_ci_label.yml
+
+# 83  apache/cordova-plugin-media
+       Score:          2113
+       Stars:           387
+       Forks:           763
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+# 84  apache/datafusion-python
+       Score:          2106
+       Stars:           592
+       Forks:           156
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - dev.yml
+
+# 85  apache/cordova-plugin-splashscreen
+       Score:          2095
+       Stars:           637
+       Forks:           629
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - chrome.yml
+         - lint.yml
+
+# 86  apache/commons-imaging
+       Score:          2088
+       Stars:           482
+       Forks:           205
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+# 87  apache/cordova-plugin-statusbar
+       Score:          2081
+       Stars:           615
+       Forks:           483
+       Last push:  2026-06-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+# 88  apache/cassandra-ccm
+       Score:          2052
+       Stars:         1,232
+       Forks:           310
+       Last push:  2026-04-21
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - main-python-2-7.yml
+         - main.yml
+
+# 89  apache/iceberg-go
+       Score:          2044
+       Stars:           437
+       Forks:           213
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - rc.yml
+
+# 90  apache/dubbo-go-samples
+       Score:          1911
+       Stars:           294
+       Forks:           240
+       Last push:  2026-06-25
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - github-actions.yml
+
+# 91  apache/syncope
+       Score:          1868
+       Stars:           331
+       Forks:           207
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - publiccodeyml-check.yml
+
+# 92  apache/commons-net
+       Score:          1810
+       Stars:           293
+       Forks:           207
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+# 93  apache/arrow-go
+       Score:          1708
+       Stars:           383
+       Forks:           128
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yml
+
+# 94  apache/samza
+       Score:          1707
+       Stars:           843
+       Forks:           332
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+# 95  apache/maven-compiler-plugin
+       Score:          1695
+       Stars:           254
+       Forks:           188
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+# 96  apache/ignite-3
+       Score:          1677
+       Stars:           332
+       Forks:           143
+       Last push:  2026-06-22
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - python_dbapi_wheels.yml
+
+# 97  apache/cordova-plugin-network-information
+       Score:          1636
+       Stars:           462
+       Forks:           337
+       Last push:  2026-06-28
+       Dependabot: ✗ no dependabot
+       Flagged workflows (5):
+         - android.yml
+         - chrome.yml
+         - draft-release.yml
+         - ios.yml
+         - lint.yml
+
+# 98  apache/teaclave
+       Score:          1615
+       Stars:           801
+       Forks:           157
+       Last push:  2026-06-10
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+# 99  apache/rocketmq-clients
+       Score:          1592
+       Stars:           492
+       Forks:           300
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - cpp_tagged_release.yaml
+
+#100  apache/maven-dependency-plugin
+       Score:          1582
+       Stars:           171
+       Forks:           192
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#101  apache/seatunnel-web
+       Score:          1571
+       Stars:           851
+       Forks:           360
+       Last push:  2026-01-22
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - backend.yml
+         - code-analysys.yml
+         - codeql.yaml
+
+#102  apache/maven-enforcer
+       Score:          1506
+       Stars:           158
+       Forks:           173
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#103  apache/cordova-plugin-media-capture
+       Score:          1498
+       Stars:           310
+       Forks:           494
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+#104  apache/maven-archetype
+       Score:          1492
+       Stars:           147
+       Forks:           174
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#105  apache/maven-scm
+       Score:          1460
+       Stars:           101
+       Forks:           186
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#106  apache/cordova-plugin-device
+       Score:          1438
+       Stars:           392
+       Forks:           423
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+#107  apache/dubbo-go-pixiu
+       Score:          1426
+       Stars:           554
+       Forks:           186
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - github-actions.yml
+
+#108  apache/maven-resolver
+       Score:          1424
+       Stars:           147
+       Forks:           151
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#109  apache/iceberg-cpp
+       Score:          1406
+       Stars:           211
+       Forks:           113
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - rc.yml
+
+#110  apache/maven-release
+       Score:          1372
+       Stars:           125
+       Forks:           145
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#111  apache/shiro-site
+       Score:          1365
+       Stars:            24
+       Forks:           193
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - mandatory_files.yml
+
+#112  apache/hudi-rs
+       Score:          1353
+       Stars:           278
+       Forks:            62
+       Last push:  2026-06-26
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yml
+
+#113  apache/apisix-helm-chart
+       Score:          1350
+       Stars:           284
+       Forks:           283
+       Last push:  2026-06-26
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yaml
+
+#114  apache/maven-wrapper
+       Score:          1338
+       Stars:           248
+       Forks:            72
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - maven-verify.yml
+         - shellcheck-posix.yml
+
+#115  apache/maven-shade-plugin
+       Score:          1329
+       Stars:           186
+       Forks:           100
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#116  apache/arrow-java
+       Score:          1269
+       Stars:            86
+       Forks:           130
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - dev.yml
+         - release.yml
+
+#117  apache/calcite-avatica
+       Score:          1252
+       Stars:           270
+       Forks:           241
+       Last push:  2026-06-24
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - build-docker-hub-images.yml
+         - gradle-wrapper-validation.yml
+         - publish-site-and-javadocs-on-release.yml
+
+#118  apache/commons-crypto
+       Score:          1246
+       Stars:           133
+       Forks:            99
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (5):
+         - adhoctest.yml
+         - docker_images.yml
+         - maven.yml
+         - maven_adhoc.yml
+         - maven_crosstest.yml
+
+#119  apache/jspwiki
+       Score:          1240
+       Stars:           117
+       Forks:           105
+       Last push:  2026-06-27
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#120  apache/paimon-rust
+       Score:          1236
+       Stars:           178
+       Forks:            73
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (3):
+         - release-go-binding.yml
+         - release-rust.yml
+         - release_python_binding.yml
+
+#121  apache/maven-javadoc-plugin
+       Score:          1230
+       Stars:           102
+       Forks:           109
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#122  apache/maven-build-cache-extension
+       Score:          1204
+       Stars:           159
+       Forks:            72
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - maven-verify-3.9.x.yml
+         - maven-verify.yml
+
+#123  apache/opendal-reqsign
+       Score:          1204
+       Stars:           161
+       Forks:            71
+       Last push:  2026-06-26
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yml
+
+#124  apache/qpid-proton
+       Score:          1197
+       Stars:           249
+       Forks:           224
+       Last push:  2026-06-18
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#125  apache/cordova-plugin-dialogs
+       Score:          1191
+       Stars:           291
+       Forks:           350
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+#126  apache/arrow-site
+       Score:          1191
+       Stars:            38
+       Forks:           128
+       Last push:  2026-06-22
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - devdocs.yml
+
+#127  apache/echarts-doc
+       Score:          1173
+       Stars:           261
+       Forks:           206
+       Last push:  2026-06-11
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - nodejs.yml
+
+#128  apache/maven-wagon
+       Score:          1148
+       Stars:            53
+       Forks:           106
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#129  apache/daffodil
+       Score:          1138
+       Stars:           111
+       Forks:            74
+       Last push:  2026-06-25
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release-candidate.yml
+
+#130  apache/maven-assembly-plugin
+       Score:          1136
+       Stars:           109
+       Forks:            74
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#131  apache/doris-flink-connector
+       Score:          1132
+       Stars:           378
+       Forks:           277
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (5):
+         - build-connector.yml
+         - run-e2ecase-flink1.yml
+         - run-e2ecase-flink2.yml
+         - run-itcase-flink1.yml
+         - run-itcase-flink2.yml
+
+#132  apache/maven-jar-plugin
+       Score:          1125
+       Stars:            88
+       Forks:            81
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#133  apache/cayenne
+       Score:          1115
+       Stars:           341
+       Forks:           137
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - verify-deploy-on-push.yml
+
+#134  apache/flink-connector-jdbc
+       Score:          1113
+       Stars:           179
+       Forks:           217
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - backwards_compatibility.yml
+         - push_pr.yml
+
+#135  apache/maven-war-plugin
+       Score:          1112
+       Stars:            47
+       Forks:            97
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#136  apache/flink-connector-kafka
+       Score:          1103
+       Stars:           191
+       Forks:           206
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#137  apache/flink-statefun
+       Score:          1097
+       Stars:           535
+       Forks:           181
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - doc-check.yml
+         - java8-build.yml
+
+#138  apache/maven-deploy-plugin
+       Score:          1082
+       Stars:            73
+       Forks:            74
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#139  apache/maven-checkstyle-plugin
+       Score:          1078
+       Stars:            91
+       Forks:            64
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#140  apache/logging-log4cxx
+       Score:          1076
+       Stars:           300
+       Forks:           138
+       Last push:  2026-06-18
+       Dependabot: ✗ no dependabot
+       Flagged workflows (7):
+         - abi-compatibility.yml
+         - log4cxx-cpp11.yml
+         - log4cxx-macos.yml
+         - log4cxx-msys2.yml
+         - log4cxx-ubuntu.yml
+         - log4cxx-windows-static.yml
+         - log4cxx-windows.yml
+
+#141  apache/skywalking-banyandb
+       Score:          1071
+       Stars:           343
+       Forks:           114
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - canopy.yml
+
+#142  apache/commons-jcs
+       Score:          1068
+       Stars:           106
+       Forks:            53
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#143  apache/maven-indexer
+       Score:          1059
+       Stars:            70
+       Forks:            68
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#144  apache/maven-clean-plugin
+       Score:          1056
+       Stars:            92
+       Forks:            56
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#145  apache/maven-plugin-tools
+       Score:          1054
+       Stars:            63
+       Forks:            70
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#146  apache/cordova
+       Score:          1051
+       Stars:           705
+       Forks:            73
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - twitter-together.yml
+
+#147  apache/directory-scimple
+       Score:          1036
+       Stars:            99
+       Forks:            46
+       Last push:  2026-06-25
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yml
+
+#148  apache/yetus
+       Score:          1029
+       Stars:            72
+       Forks:            57
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (3):
+         - action-test.yml
+         - linkcheck.yml
+         - yetus.yml
+
+#149  apache/servicecomb-mesher
+       Score:          1026
+       Stars:           688
+       Forks:            69
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - golangci-lint.yml
+         - static_check.yml
+
+#150  apache/infrastructure-actions
+       Score:          1020
+       Stars:            28
+       Forks:            76
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - linting.yml
+         - pelican-action-test.yml
+
+#151  apache/juneau
+       Score:          1012
+       Stars:            95
+       Forks:            40
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#152  apache/maven-pmd-plugin
+       Score:          1008
+       Stars:            62
+       Forks:            55
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#153  apache/maven-site-plugin
+       Score:           974
+       Stars:            53
+       Forks:            48
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#154  apache/arrow-js
+       Score:           974
+       Stars:           103
+       Forks:            23
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yaml
+
+#155  apache/creadur-rat
+       Score:           972
+       Stars:            38
+       Forks:            55
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#156  apache/maven-dependency-analyzer
+       Score:           969
+       Stars:            42
+       Forks:            52
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#157  apache/openjpa
+       Score:           968
+       Stars:           146
+       Forks:           161
+       Last push:  2026-06-22
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#158  apache/fluss-rust
+       Score:           966
+       Stars:            52
+       Forks:            46
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - release_python.yml
+         - release_rust.yml
+
+#159  apache/maven-jlink-plugin
+       Score:           958
+       Stars:            63
+       Forks:            38
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#160  apache/maven-doxia
+       Score:           952
+       Stars:            31
+       Forks:            52
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#161  apache/maven-resources-plugin
+       Score:           944
+       Stars:            59
+       Forks:            35
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#162  apache/arrow-flight-sql-postgresql
+       Score:           944
+       Stars:           109
+       Forks:            10
+       Last push:  2026-06-22
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (3):
+         - doc.yaml
+         - lint.yaml
+         - test.yaml
+
+#163  apache/maven-archetypes
+       Score:           942
+       Stars:            36
+       Forks:            46
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#164  apache/teaclave-trustzone-sdk
+       Score:           940
+       Stars:           278
+       Forks:            81
+       Last push:  2026-06-25
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#165  apache/maven-install-plugin
+       Score:           938
+       Stars:            39
+       Forks:            43
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#166  apache/casbin-sqlx-adapter
+       Score:           933
+       Stars:            60
+       Forks:            31
+       Last push:  2026-06-27
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yml
+
+#167  apache/datasketches-cpp
+       Score:           926
+       Stars:           266
+       Forks:            80
+       Last push:  2026-06-25
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build_cmake.yml
+
+#168  apache/cordova-node-xcode
+       Score:           920
+       Stars:           216
+       Forks:           102
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - draft-release.yml
+
+#169  apache/maven-project-info-reports-plugin
+       Score:           916
+       Stars:            27
+       Forks:            42
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#170  apache/maven-apache-parent
+       Score:           914
+       Stars:            43
+       Forks:            33
+       Last push:  2026-06-27
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#171  apache/bval
+       Score:           910
+       Stars:            51
+       Forks:            28
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - bval-ci.yml
+
+#172  apache/incubator-baremaps
+       Score:           908
+       Stars:           564
+       Forks:            72
+       Last push:  2026-05-18
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - pre-release.yml
+         - release.yml
+
+#173  apache/maven-source-plugin
+       Score:           908
+       Stars:            35
+       Forks:            35
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#174  apache/commons-parent
+       Score:           906
+       Stars:            36
+       Forks:            34
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#175  apache/maven-help-plugin
+       Score:           904
+       Stars:            27
+       Forks:            38
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#176  apache/qpid-jms
+       Score:           897
+       Stars:            81
+       Forks:           158
+       Last push:  2026-06-16
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#177  apache/maven-parent
+       Score:           890
+       Stars:            33
+       Forks:            30
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#178  apache/maven-shared-utils
+       Score:           890
+       Stars:            33
+       Forks:            30
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#179  apache/cordova-plugin-screen-orientation
+       Score:           889
+       Stars:           219
+       Forks:           235
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+#180  apache/sling-org-apache-sling-starter
+       Score:           888
+       Stars:            32
+       Forks:            30
+       Last push:  2026-06-25
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - docker-release.yml
+
+#181  apache/maven-dependency-tree
+       Score:           886
+       Stars:            27
+       Forks:            32
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#182  apache/maven-invoker-plugin
+       Score:           885
+       Stars:            22
+       Forks:            34
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#183  apache/servicecomb-kie
+       Score:           885
+       Stars:           545
+       Forks:            70
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - build.yml
+         - etcd_storage.yml
+         - mongo_storage.yml
+
+#184  apache/maven-toolchains-plugin
+       Score:           882
+       Stars:            24
+       Forks:            32
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#185  apache/nifi-minifi-cpp
+       Score:           881
+       Stars:           175
+       Forks:           103
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#186  apache/www-site
+       Score:           878
+       Stars:            66
+       Forks:           156
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - members_check.yml
+
+#187  apache/incubator-ponymail-foal
+       Score:           878
+       Stars:            43
+       Forks:            21
+       Last push:  2026-06-22
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (4):
+         - integration-tests.yml
+         - linting.yml
+         - type-tests.yml
+         - unittest.yml
+
+#188  apache/maven-filtering
+       Score:           876
+       Stars:             8
+       Forks:            38
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#189  apache/maven-gpg-plugin
+       Score:           876
+       Stars:            30
+       Forks:            27
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#190  apache/arrow-dotnet
+       Score:           874
+       Stars:            33
+       Forks:            25
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yaml
+
+#191  apache/dubbo-kubernetes
+       Score:           872
+       Stars:           198
+       Forks:            87
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yaml
+
+#192  apache/daffodil-vscode
+       Score:           872
+       Stars:            17
+       Forks:            32
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release-candidate.yml
+
+#193  apache/maven-jxr
+       Score:           868
+       Stars:            15
+       Forks:            32
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#194  apache/maven-doxia-sitetools
+       Score:           866
+       Stars:             9
+       Forks:            34
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#195  apache/commons-jelly
+       Score:           862
+       Stars:            23
+       Forks:            26
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#196  apache/maven-antrun-plugin
+       Score:           861
+       Stars:            34
+       Forks:            20
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#197  apache/pulsar-client-node
+       Score:           859
+       Stars:           165
+       Forks:            97
+       Last push:  2026-06-26
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci-build-release-napi.yml
+
+#198  apache/maven-invoker
+       Score:           856
+       Stars:            21
+       Forks:            25
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#199  apache/maven-ear-plugin
+       Score:           852
+       Stars:            12
+       Forks:            28
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#200  apache/doris-spark-connector
+       Score:           847
+       Stars:           107
+       Forks:           120
+       Last push:  2026-06-24
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - build-extension.yml
+         - run-e2ecase.yml
+         - run-itcase.yml
+
+#201  apache/maven-fluido-skin
+       Score:           844
+       Stars:            19
+       Forks:            22
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#202  apache/arrow-swift
+       Score:           844
+       Stars:            27
+       Forks:            18
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yaml
+
+#203  apache/maven-archiver
+       Score:           840
+       Stars:            10
+       Forks:            25
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#204  apache/maven-jarsigner-plugin
+       Score:           838
+       Stars:            21
+       Forks:            19
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#205  apache/maven-artifact-plugin
+       Score:           837
+       Stars:            12
+       Forks:            23
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#206  apache/maven-changes-plugin
+       Score:           836
+       Stars:            13
+       Forks:            22
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#207  apache/netbeans-nbpackage
+       Score:           836
+       Stars:            33
+       Forks:            12
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - test.yaml
+
+#208  apache/commons-weaver
+       Score:           834
+       Stars:            26
+       Forks:            15
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#209  apache/maven-changelog-plugin
+       Score:           834
+       Stars:            28
+       Forks:            14
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#210  apache/maven-jdeps-plugin
+       Score:           830
+       Stars:            15
+       Forks:            19
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#211  apache/maven-scm-publish-plugin
+       Score:           830
+       Stars:            17
+       Forks:            18
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#212  apache/maven-remote-resources-plugin
+       Score:           825
+       Stars:            16
+       Forks:            17
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#213  apache/maven-resolver-ant-tasks
+       Score:           822
+       Stars:            12
+       Forks:            18
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#214  apache/beam-starter-python
+       Score:           822
+       Stars:            22
+       Forks:            13
+       Last push:  2026-06-24
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - test.yaml
+
+#215  apache/whimsy
+       Score:           816
+       Stars:           120
+       Forks:            98
+       Last push:  2026-06-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - npmtest.yml
+         - unittestlib.yml
+
+#216  apache/flink-connector-elasticsearch
+       Score:           816
+       Stars:            96
+       Forks:           110
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#217  apache/ozone-helm-charts
+       Score:           814
+       Stars:            19
+       Forks:            12
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - test.yaml
+         - zizmor.yml
+
+#218  apache/maven-verifier
+       Score:           813
+       Stars:             6
+       Forks:            18
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#219  apache/maven-common-artifact-filters
+       Score:           808
+       Stars:             5
+       Forks:            17
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#220  apache/mynewt-mcumgr
+       Score:           808
+       Stars:           134
+       Forks:            87
+       Last push:  2026-06-26
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - build_cc_target.yml
+         - newt_test_all.yml
+
+#221  apache/maven-jmod-plugin
+       Score:           802
+       Stars:            13
+       Forks:            11
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#222  apache/opendal-oli
+       Score:           802
+       Stars:            25
+       Forks:             5
+       Last push:  2026-06-03
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yml
+
+#223  apache/maven-scripting-plugin
+       Score:           801
+       Stars:            14
+       Forks:            10
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#224  apache/maven-ejb-plugin
+       Score:           800
+       Stars:             9
+       Forks:            12
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#225  apache/beam-starter-java
+       Score:           798
+       Stars:             8
+       Forks:            12
+       Last push:  2026-06-04
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - test.yaml
+
+#226  apache/maven-file-management
+       Score:           796
+       Stars:             9
+       Forks:            11
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#227  apache/maven-reporting-impl
+       Score:           795
+       Stars:             6
+       Forks:            12
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#228  apache/maven-verifier-plugin
+       Score:           795
+       Stars:            14
+       Forks:             8
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#229  apache/maven-jdeprscan-plugin
+       Score:           794
+       Stars:             7
+       Forks:            11
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yaml
+
+#230  apache/maven-script-interpreter
+       Score:           792
+       Stars:            12
+       Forks:             8
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#231  apache/maven-shared-io
+       Score:           790
+       Stars:             3
+       Forks:            12
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#232  apache/maven-apache-resources
+       Score:           790
+       Stars:             9
+       Forks:             9
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#233  apache/maven-doap-plugin
+       Score:           789
+       Stars:             6
+       Forks:            10
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#234  apache/maven-rar-plugin
+       Score:           789
+       Stars:             8
+       Forks:             9
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#235  apache/maven-stage-plugin
+       Score:           789
+       Stars:             8
+       Forks:             9
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#236  apache/netbeans-jenkins-lib
+       Score:           789
+       Stars:             6
+       Forks:            10
+       Last push:  2026-06-23
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - jsoncheck.yml
+
+#237  apache/doris-opentelemetry-demo
+       Score:           788
+       Stars:            13
+       Forks:             6
+       Last push:  2026-07-01
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - build-images.yml
+         - gradle-wrapper-validation.yml
+
+#238  apache/opennlp-models
+       Score:           786
+       Stars:            16
+       Forks:             4
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#239  apache/casbin-casbin.js
+       Score:           785
+       Stars:           205
+       Forks:            40
+       Last push:  2026-06-16
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#240  apache/maven-shared-incremental
+       Score:           784
+       Stars:             3
+       Forks:            10
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#241  apache/maven-shared-resources
+       Score:           784
+       Stars:             7
+       Forks:             8
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#242  apache/pekko-sbt-paradox
+       Score:           784
+       Stars:             5
+       Forks:             9
+       Last push:  2026-06-24
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - clean.yml
+
+#243  apache/casbin-caddy-authz
+       Score:           783
+       Stars:           249
+       Forks:            17
+       Last push:  2026-06-03
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#244  apache/kvrocks-controller
+       Score:           783
+       Stars:           137
+       Forks:            73
+       Last push:  2026-06-05
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yaml
+
+#245  apache/maven-shared-jar
+       Score:           782
+       Stars:             3
+       Forks:             9
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#246  apache/maven-reporting-exec
+       Score:           780
+       Stars:             6
+       Forks:             7
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#247  apache/maven-jarsigner
+       Score:           778
+       Stars:             5
+       Forks:             7
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#248  apache/maven-acr-plugin
+       Score:           778
+       Stars:             5
+       Forks:             7
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#249  apache/doris-operator
+       Score:           778
+       Stars:           134
+       Forks:            72
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - docker_action.yaml
+         - helm-release.yaml
+         - license-eyes.yml
+
+#250  apache/netbeans-jackpot30
+       Score:           777
+       Stars:             6
+       Forks:             6
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - main.yml
+
+#251  apache/maven-reporting-api
+       Score:           777
+       Stars:             6
+       Forks:             6
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#252  apache/maven-doxia-converter
+       Score:           776
+       Stars:             3
+       Forks:             7
+       Last push:  2026-06-09
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#253  apache/maven-mapping
+       Score:           776
+       Stars:             1
+       Forks:             8
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#254  apache/maven-doxia-site
+       Score:           772
+       Stars:             3
+       Forks:             6
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#255  apache/beam-starter-kotlin
+       Score:           771
+       Stars:             6
+       Forks:             4
+       Last push:  2026-06-26
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - test.yaml
+
+#256  apache/cloudstack-cloudmonkey
+       Score:           770
+       Stars:           114
+       Forks:            78
+       Last push:  2026-06-02
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - build.yml
+         - lint.yml
+
+#257  apache/flink-connector-aws
+       Score:           766
+       Stars:            78
+       Forks:            94
+       Last push:  2026-06-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#258  apache/grails-github-actions
+       Score:           765
+       Stars:             4
+       Forks:             3
+       Last push:  2026-06-25
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - ci.yml
+         - rat.yml
+
+#259  apache/maven-xinclude-extension
+       Score:           764
+       Stars:             5
+       Forks:             2
+       Last push:  2026-06-12
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#260  apache/tooling-atr-maven-plugin
+       Score:           760
+       Stars:             3
+       Forks:             2
+       Last push:  2026-06-29
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - verify.yml
+
+#261  apache/fineract-consumer-facing
+       Score:           760
+       Stars:             1
+       Forks:             3
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - build-tests-backend.yml
+         - build-tests-frontend.yml
+
+#262  apache/maven-executor
+       Score:           756
+       Stars:             2
+       Forks:             1
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#263  apache/hadoop-cloudstore
+       Score:           756
+       Stars:             2
+       Forks:             1
+       Last push:  2026-06-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#264  apache/casbin-server
+       Score:           744
+       Stars:           336
+       Forks:           104
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - default.yml
+
+#265  apache/pulsar-client-cpp
+       Score:           741
+       Stars:            69
+       Forks:            86
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci-build-binary-artifacts.yaml
+
+#266  apache/flink-connector-pulsar
+       Score:           733
+       Stars:            71
+       Forks:            81
+       Last push:  2026-06-03
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#267  apache/tomcat-native
+       Score:           722
+       Stars:            92
+       Forks:            65
+       Last push:  2026-06-23
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - makefile.yml
+
+#268  apache/buildstream
+       Score:           718
+       Stars:           132
+       Forks:            43
+       Last push:  2026-06-22
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#269  apache/dubbo-python
+       Score:           708
+       Stars:           306
+       Forks:           101
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - license-check.yaml
+         - test-suite.yaml
+
+#270  apache/casbin-xorm-adapter
+       Score:           695
+       Stars:           381
+       Forks:            57
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#271  apache/qpid-broker-j
+       Score:           679
+       Stars:            71
+       Forks:            54
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#272  apache/pulsar-client-python
+       Score:           676
+       Stars:            74
+       Forks:            51
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci-build-release-wheels.yaml
+
+#273  apache/casbin-nest-authz
+       Score:           664
+       Stars:           189
+       Forks:            27
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - ci.yml
+
+#274  apache/cordova-paramedic
+       Score:           648
+       Stars:            38
+       Forks:            55
+       Last push:  2026-06-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+#275  apache/dubbo-spi-extensions
+       Score:           645
+       Stars:           205
+       Forks:           120
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - build-and-test-pr.yml
+         - conformance.yml
+
+#276  apache/phoenix-adapters
+       Score:           640
+       Stars:           114
+       Forks:            13
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#277  apache/cordova-plugin-test-framework
+       Score:           637
+       Stars:            75
+       Forks:            31
+       Last push:  2026-06-28
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#278  apache/dubbo-go-pixiu-samples
+       Score:           609
+       Stars:            27
+       Forks:            41
+       Last push:  2026-06-07
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - github-actions.yml
+
+#279  apache/casbin-pg-adapter
+       Score:           601
+       Stars:            45
+       Forks:            28
+       Last push:  2026-06-16
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#280  apache/flink-shaded
+       Score:           599
+       Stars:           139
+       Forks:           130
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#281  apache/tomcat-connectors
+       Score:           595
+       Stars:            21
+       Forks:            37
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - makefile-isapi-win.yml
+         - makefile-mod_jk-win.yml
+
+#282  apache/casbin-node-casbin-prisma-adapter
+       Score:           594
+       Stars:            46
+       Forks:            24
+       Last push:  2026-06-04
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#283  apache/cordova-plugin-battery-status
+       Score:           590
+       Stars:           104
+       Forks:           143
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+#284  apache/cordova-plugin-vibration
+       Score:           587
+       Stars:           129
+       Forks:           129
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+#285  apache/celix
+       Score:           585
+       Stars:           189
+       Forks:            98
+       Last push:  2026-04-16
+       Dependabot: ✗ no dependabot
+       Flagged workflows (8):
+         - celix_etcdlib.yml
+         - celix_promise.yml
+         - conan_create.yml
+         - containers.yml
+         - coverage.yml
+         - fuzzing.yml
+         - macos.yml
+         - ubuntu.yml
+
+#286  apache/comdev-events-site
+       Score:           582
+       Stars:            42
+       Forks:            20
+       Last push:  2026-06-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - getcalendar.yml
+
+#287  apache/tika-helm
+       Score:           581
+       Stars:            33
+       Forks:            24
+       Last push:  2026-06-03
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yaml
+
+#288  apache/flink-benchmarks
+       Score:           577
+       Stars:           187
+       Forks:            95
+       Last push:  2026-05-28
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#289  apache/casbin-mongodb-adapter
+       Score:           575
+       Stars:           267
+       Forks:            54
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#290  apache/casbin-spring-boot-starter
+       Score:           572
+       Stars:           234
+       Forks:            69
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#291  apache/cloudstack-terraform-provider
+       Score:           561
+       Stars:            50
+       Forks:            62
+       Last push:  2026-04-09
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - acceptance.yml
+         - build.yml
+
+#292  apache/infrastructure-asfyaml
+       Score:           557
+       Stars:            15
+       Forks:            21
+       Last push:  2026-06-23
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - basic-validator.yaml
+
+#293  apache/nifi-api
+       Score:           554
+       Stars:             8
+       Forks:            23
+       Last push:  2026-06-25
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#294  apache/qpid-protonj2
+       Score:           550
+       Stars:            22
+       Forks:            14
+       Last push:  2026-06-16
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#295  apache/opendal-ofs
+       Score:           546
+       Stars:            38
+       Forks:             4
+       Last push:  2026-06-02
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#296  apache/artemis-console
+       Score:           544
+       Stars:            10
+       Forks:            17
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#297  apache/artemis-native
+       Score:           542
+       Stars:            12
+       Forks:            15
+       Last push:  2026-06-02
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#298  apache/openserverless-operator
+       Score:           541
+       Stars:            11
+       Forks:            15
+       Last push:  2026-06-16
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - image.yml
+
+#299  apache/sdap-ingester
+       Score:           539
+       Stars:             5
+       Forks:            17
+       Last push:  2026-05-31
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - pypi-tag-release.yml
+
+#300  apache/camel-upgrade-recipes
+       Score:           538
+       Stars:             8
+       Forks:            15
+       Last push:  2026-06-24
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - github-release.yml
+
+#301  apache/paimon-mosaic
+       Score:           538
+       Stars:            20
+       Forks:             9
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#302  apache/paimon-vector-index
+       Score:           538
+       Stars:            14
+       Forks:            12
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#303  apache/daffodil-site
+       Score:           537
+       Stars:             5
+       Forks:            16
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build-publish.yml
+
+#304  apache/flink-connector-http
+       Score:           535
+       Stars:            11
+       Forks:            12
+       Last push:  2026-06-26
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#305  apache/cordova-plugin-device-motion
+       Score:           532
+       Stars:            74
+       Forks:           129
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+#306  apache/httpd-tests
+       Score:           528
+       Stars:             8
+       Forks:            10
+       Last push:  2026-06-09
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - httpd-build.yml
+
+#307  apache/flink-connector-kudu
+       Score:           528
+       Stars:             8
+       Forks:            10
+       Last push:  2026-06-23
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#308  apache/teaclave-crates
+       Score:           526
+       Stars:            10
+       Forks:             8
+       Last push:  2026-06-10
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#309  apache/creadur-whisker
+       Score:           522
+       Stars:             8
+       Forks:             7
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven.yml
+
+#310  apache/couchdb-mochiweb
+       Score:           521
+       Stars:             7
+       Forks:             7
+       Last push:  2026-06-08
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#311  apache/mynewt-newt
+       Score:           521
+       Stars:           125
+       Forks:            98
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (5):
+         - test_ambiguous_cfg.yml
+         - test_commands.yml
+         - test_dump.yml
+         - test_sysinit.yml
+         - test_upgrade.yml
+
+#312  apache/creadur-tentacles
+       Score:           520
+       Stars:             4
+       Forks:             8
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven.yml
+
+#313  apache/cordova-eslint
+       Score:           519
+       Stars:             7
+       Forks:             6
+       Last push:  2026-06-28
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - draft-release.yml
+
+#314  apache/mina-ftpserver
+       Score:           516
+       Stars:            68
+       Forks:            38
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven.yml
+
+#315  apache/daffodil-sbt
+       Score:           516
+       Stars:             2
+       Forks:             7
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release-candidate.yml
+
+#316  apache/infrastructure-asfpy
+       Score:           514
+       Stars:             4
+       Forks:             5
+       Last push:  2026-06-18
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - pylint.yml
+         - unittest.yml
+
+#317  apache/casbin-node-casbin-mongo-changestream-watcher
+       Score:           512
+       Stars:             2
+       Forks:             5
+       Last push:  2026-06-16
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - main.yml
+
+#318  apache/fluss-shaded
+       Score:           512
+       Stars:             4
+       Forks:             4
+       Last push:  2026-07-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#319  apache/casbin-jcasbin-java-cli
+       Score:           511
+       Stars:             3
+       Forks:             4
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#320  apache/datafusion-sandbox
+       Score:           511
+       Stars:             5
+       Forks:             3
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - docs_pr.yaml
+
+#321  apache/casbin-node-casbin-couchdb-adapter
+       Score:           509
+       Stars:             3
+       Forks:             3
+       Last push:  2026-06-05
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#322  apache/casbin-jcasbin-postgres-watcher
+       Score:           504
+       Stars:             2
+       Forks:             1
+       Last push:  2026-06-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#323  apache/tooling-asfswhid
+       Score:           502
+       Stars:             0
+       Forks:             1
+       Last push:  2026-06-12
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#324  apache/casbin-website-v1-deprecated
+       Score:           500
+       Stars:            40
+       Forks:           130
+       Last push:  2026-05-09
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - node-ci.yml
+
+#325  apache/paimon-webui
+       Score:           475
+       Stars:           147
+       Forks:            64
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - backend-ci.yml
+         - check-licensing.yml
+         - frontend-ci.yml
+
+#326  apache/rocketmq-eventbridge
+       Score:           451
+       Stars:           147
+       Forks:            52
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - tagged-release.yml
+
+#327  apache/casbin-redis-adapter
+       Score:           450
+       Stars:           200
+       Forks:            25
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#328  apache/casbin-rust-diesel-adapter
+       Score:           422
+       Stars:            35
+       Forks:            23
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yml
+
+#329  apache/cordova-plugin-device-orientation
+       Score:           421
+       Stars:            61
+       Forks:            80
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - android.yml
+         - chrome.yml
+         - ios.yml
+         - lint.yml
+
+#330  apache/mynewt-newtmgr
+       Score:           402
+       Stars:            38
+       Forks:            82
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#331  apache/datafusion-ballista-python
+       Score:           390
+       Stars:            42
+       Forks:             9
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (4):
+         - dev.yml
+         - python_build.yml
+         - python_test.yaml
+         - rust.yml
+
+#332  apache/johnzon
+       Score:           384
+       Stars:            56
+       Forks:            64
+       Last push:  2026-05-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven.yml
+
+#333  apache/dubbo-hessian-lite
+       Score:           380
+       Stars:            70
+       Forks:            55
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven.yml
+
+#334  apache/plc4x-build-tools
+       Score:           380
+       Stars:            19
+       Forks:            17
+       Last push:  2026-05-19
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - ensure-platforms.yml
+
+#335  apache/commons-ognl
+       Score:           371
+       Stars:            89
+       Forks:            41
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - coverage.yml
+         - maven.yml
+
+#336  apache/dubbo-benchmark
+       Score:           358
+       Stars:            78
+       Forks:            40
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#337  apache/qpid-proton-j
+       Score:           354
+       Stars:            38
+       Forks:            58
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#338  apache/maven-hocon-extension
+       Score:           354
+       Stars:            32
+       Forks:             2
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - maven-verify.yml
+
+#339  apache/paimon-trino
+       Score:           350
+       Stars:            44
+       Forks:            53
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci-jdk24.yml
+
+#340  apache/incubator-ponymail
+       Score:           343
+       Stars:            81
+       Forks:            31
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - pythonpackage.yml
+
+#341  apache/beam-starter-go
+       Score:           334
+       Stars:            11
+       Forks:             6
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - test.yaml
+
+#342  apache/airavata-django-portal
+       Score:           334
+       Stars:            36
+       Forks:            49
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build-and-test.yaml
+
+#343  apache/casbin-sequelize-adapter
+       Score:           329
+       Stars:            63
+       Forks:            33
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#344  apache/beam-starter-typescript
+       Score:           328
+       Stars:            11
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - test.yaml
+
+#345  apache/flink-connector-mongodb
+       Score:           324
+       Stars:            54
+       Forks:            35
+       Last push:  2026-05-28
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#346  apache/devlake-terraform
+       Score:           321
+       Stars:             6
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - release.yml
+         - test.yml
+
+#347  apache/cloudstack-kubernetes-provider
+       Score:           320
+       Stars:            50
+       Forks:            35
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#348  apache/openwebbeans-meecrowave
+       Score:           319
+       Stars:            61
+       Forks:            29
+       Last push:  2026-05-20
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven.yml
+
+#349  apache/yetus-test-patch-action
+       Score:           316
+       Stars:             1
+       Forks:             5
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - yetus.yml
+
+#350  apache/casbin-jcasbin-jdbc-adapter
+       Score:           313
+       Stars:            39
+       Forks:            37
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#351  apache/grails-gradle-publish
+       Score:           312
+       Stars:             6
+       Forks:             1
+       Last push:  2026-05-30
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - rat.yaml
+         - release-notes.yml
+
+#352  apache/flink-connector-hbase
+       Score:           310
+       Stars:            34
+       Forks:            38
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#353  apache/yetus-homebrew
+       Score:           309
+       Stars:             0
+       Forks:             3
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - testing.yaml
+         - yetus.yml
+
+#354  apache/teaclave-java-tee-sdk
+       Score:           308
+       Stars:            66
+       Forks:            21
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#355  apache/casbin-rust-postgres-adapter
+       Score:           306
+       Stars:             0
+       Forks:             2
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yml
+
+#356  apache/casbin-ent-adapter
+       Score:           304
+       Stars:            62
+       Forks:            21
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#357  apache/casbin-rust-dufs-with-casbin
+       Score:           302
+       Stars:             1
+       Forks:             0
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - release.yaml
+
+#358  apache/incubator-ponymail-unit-tests
+       Score:           300
+       Stars:             0
+       Forks:             0
+       Last push:  2026-05-15
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (2):
+         - unittest.yml
+         - unittest312.yml
+
+#359  apache/flink-connector-opensearch
+       Score:           296
+       Stars:            28
+       Forks:            34
+       Last push:  2026-05-26
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#360  apache/nifi-maven
+       Score:           293
+       Stars:            29
+       Forks:            32
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#361  apache/hadoop-thirdparty
+       Score:           292
+       Stars:             6
+       Forks:            43
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - build.yml
+         - dependency_check.yml
+         - license_check.yml
+
+#362  apache/casbin-govaluate
+       Score:           291
+       Stars:            69
+       Forks:            11
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#363  apache/casbin-axum-casbin
+       Score:           289
+       Stars:            69
+       Forks:            10
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#364  apache/casbin-actix-casbin-auth
+       Score:           286
+       Stars:            58
+       Forks:            14
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#365  apache/casbin-express-authz
+       Score:           284
+       Stars:            62
+       Forks:            11
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - main.yml
+
+#366  apache/flink-connector-cassandra
+       Score:           282
+       Stars:            20
+       Forks:            31
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#367  apache/felix-atomos
+       Score:           281
+       Stars:            43
+       Forks:            19
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven.yml
+
+#368  apache/flink-connector-hive
+       Score:           272
+       Stars:            14
+       Forks:            29
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#369  apache/doris-kafka-connector
+       Score:           266
+       Stars:            28
+       Forks:            19
+       Last push:  2026-04-07
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - build-doris-kafka-connector.yml
+         - kafka2doris-e2ecase.yaml
+
+#370  apache/flink-connector-gcp-pubsub
+       Score:           264
+       Stars:            14
+       Forks:            25
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#371  apache/casbin-go-client
+       Score:           259
+       Stars:            27
+       Forks:            16
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#372  apache/flink-connector-rabbitmq
+       Score:           258
+       Stars:            24
+       Forks:            17
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#373  apache/datasketches-python
+       Score:           258
+       Stars:            42
+       Forks:             8
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#374  apache/casbin-beego-orm-adapter
+       Score:           257
+       Stars:            23
+       Forks:            17
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#375  apache/spark-connect-rust
+       Score:           256
+       Stars:            32
+       Forks:            12
+       Last push:  2026-05-26
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#376  apache/casbin-rust-actix-casbin
+       Score:           251
+       Stars:            35
+       Forks:             8
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#377  apache/casbin-js-vue-authz
+       Score:           249
+       Stars:            29
+       Forks:            10
+       Last push:  2026-05-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#378  apache/dubbo-integration-cases
+       Score:           243
+       Stars:             5
+       Forks:            19
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - dubbo-3_2.yml
+         - dubbo-3_3.yml
+         - license.yml
+
+#379  apache/paimon-presto
+       Score:           242
+       Stars:            12
+       Forks:            15
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#380  apache/casbin-vscode-plugin
+       Score:           241
+       Stars:            27
+       Forks:             7
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - default.yml
+
+#381  apache/paimon-python
+       Score:           239
+       Stars:            19
+       Forks:            10
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - check-java-bridge-licensing.yml
+         - check-licensing.yml
+         - paimon-python-checks.yml
+
+#382  apache/casbin-SwiftCasbin
+       Score:           238
+       Stars:            22
+       Forks:             8
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - test.yml
+
+#383  apache/rocketmq-client-csharp
+       Score:           236
+       Stars:            18
+       Forks:             9
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - main.yml
+
+#384  apache/casbin-json-adapter
+       Score:           233
+       Stars:            19
+       Forks:             7
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - default.yml
+
+#385  apache/casbin-node-casbin-basic-adapter
+       Score:           233
+       Stars:            13
+       Forks:            10
+       Last push:  2026-05-21
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#386  apache/kyuubi-docker
+       Score:           232
+       Stars:            16
+       Forks:             8
+       Last push:  2026-05-22
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - docker-image.yml
+
+#387  apache/flink-connector-redis-streams
+       Score:           231
+       Stars:            19
+       Forks:             6
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#388  apache/casbin-python-fastapi-casbin-auth
+       Score:           231
+       Stars:            25
+       Forks:             3
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - coverage.yml
+
+#389  apache/paimon-shade
+       Score:           230
+       Stars:            10
+       Forks:            10
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#390  apache/geronimo-txmanager
+       Score:           229
+       Stars:            15
+       Forks:             7
+       Last push:  2026-05-18
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven.yml
+
+#391  apache/casbin-jcasbin-redis-watcher
+       Score:           228
+       Stars:             4
+       Forks:            12
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#392  apache/casbin-confita
+       Score:           228
+       Stars:            10
+       Forks:             9
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#393  apache/incubator-ponymail-site
+       Score:           227
+       Stars:            13
+       Forks:             7
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build-site.yml
+
+#394  apache/casbin-node-casbin-redis-watcher
+       Score:           226
+       Stars:             8
+       Forks:             9
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#395  apache/karaf-winegrower
+       Score:           225
+       Stars:            13
+       Forks:             6
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven.yml
+
+#396  apache/casbin-jcasbin-mybatis-adapter
+       Score:           225
+       Stars:            13
+       Forks:             6
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#397  apache/casbin-hraft-dispatcher
+       Score:           225
+       Stars:            17
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - main.yml
+
+#398  apache/flink-connector-prometheus
+       Score:           225
+       Stars:            17
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push_pr.yml
+
+#399  apache/qpid-proton-dotnet
+       Score:           224
+       Stars:            14
+       Forks:             5
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - dotnet.yml
+
+#400  apache/doris-sdk
+       Score:           224
+       Stars:             8
+       Forks:             8
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - build-extension.yaml
+         - license.yaml
+
+#401  apache/cloudstack-csbench
+       Score:           224
+       Stars:             6
+       Forks:             9
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#402  apache/shenyu-client-rust
+       Score:           224
+       Stars:            14
+       Forks:             5
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - publish.yml
+
+#403  apache/geode-kafka-connector
+       Score:           223
+       Stars:             5
+       Forks:             9
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - mvn-package-all-os.yml
+
+#404  apache/casbin-raft
+       Score:           222
+       Stars:            14
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - default.yml
+
+#405  apache/casbin-jcasbin-jfinal-authz
+       Score:           221
+       Stars:             7
+       Forks:             7
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#406  apache/casbin-node-casbin-node-redis-adapter
+       Score:           221
+       Stars:             3
+       Forks:             9
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - ci.yml
+         - release.yml
+
+#407  apache/casbin-jcasbin-play-authz
+       Score:           221
+       Stars:             5
+       Forks:             8
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#408  apache/casbin-rust-rocket-authz
+       Score:           220
+       Stars:             4
+       Forks:             8
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#409  apache/casbin-jcasbin-redis-adapter
+       Score:           220
+       Stars:             6
+       Forks:             7
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#410  apache/casbin-jcasbin-hibernate-adapter
+       Score:           219
+       Stars:             3
+       Forks:             8
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#411  apache/geronimo-arthur
+       Score:           217
+       Stars:             9
+       Forks:             4
+       Last push:  2026-05-18
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven.yml
+
+#412  apache/bigtop-manager
+       Score:           216
+       Stars:           120
+       Forks:            48
+       Last push:  2026-03-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#413  apache/couchdb-meck
+       Score:           215
+       Stars:             5
+       Forks:             5
+       Last push:  2026-05-16
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - erlang.yml
+
+#414  apache/casbin-Casbin.NET-ef-adapter
+       Score:           215
+       Stars:             7
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - gitub-actions-release.yml
+
+#415  apache/casbin-jcasbin-mongo-adapter
+       Score:           215
+       Stars:             3
+       Forks:             6
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#416  apache/mynewt-artifact
+       Score:           214
+       Stars:             2
+       Forks:             6
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#417  apache/shenyu-wasm
+       Score:           214
+       Stars:             6
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build-wasm.yml
+
+#418  apache/casbin-jcasbin-shiro-casbin
+       Score:           213
+       Stars:             7
+       Forks:             3
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#419  apache/qpid-site
+       Score:           212
+       Stars:             2
+       Forks:             5
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#420  apache/ratis-hadoop-projects
+       Score:           211
+       Stars:             1
+       Forks:             5
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - post-commit.yml
+
+#421  apache/casbin-jcasbin-menu-permission
+       Score:           211
+       Stars:             7
+       Forks:             2
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#422  apache/amoro-shade
+       Score:           211
+       Stars:             3
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yaml
+
+#423  apache/doris-cli
+       Score:           211
+       Stars:             7
+       Forks:             2
+       Last push:  2026-05-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release-npm.yml
+
+#424  apache/casbin-jcasbin-kafka-watcher
+       Score:           210
+       Stars:             2
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#425  apache/casbin-Casbin.NET-redis-watcher
+       Score:           210
+       Stars:             2
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - build.yml
+         - release.yml
+
+#426  apache/casbin-node-casbin-etcd-watcher
+       Score:           209
+       Stars:             3
+       Forks:             3
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - main.yml
+
+#427  apache/incubator-resilientdb-ResContract
+       Score:           209
+       Stars:             3
+       Forks:             3
+       Last push:  2026-04-29
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#428  apache/casbin-go-cli
+       Score:           209
+       Stars:             1
+       Forks:             4
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#429  apache/casbin-node-casbin-expression-eval
+       Score:           209
+       Stars:             5
+       Forks:             2
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#430  apache/casbin-rust-yaml-adapter
+       Score:           208
+       Stars:             2
+       Forks:             3
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#431  apache/casbin-node-casbin-graphql-authz
+       Score:           208
+       Stars:             6
+       Forks:             1
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#432  apache/casbin-jcasbin-pulsar-authz
+       Score:           208
+       Stars:             4
+       Forks:             2
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yaml
+
+#433  apache/casbin-jcasbin-kafka-casbin
+       Score:           208
+       Stars:             2
+       Forks:             3
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#434  apache/casbin-rust-casbin-rust-cli
+       Score:           208
+       Stars:             2
+       Forks:             3
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#435  apache/casbin-jcasbin-redis-watcher-ex
+       Score:           207
+       Stars:             1
+       Forks:             3
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#436  apache/infrastructure-reporting-dashboard
+       Score:           207
+       Stars:             5
+       Forks:             1
+       Last push:  2026-05-19
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - type-tests.yml
+
+#437  apache/incubator-resilientdb-ResLens-Middleware
+       Score:           207
+       Stars:             1
+       Forks:             3
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#438  apache/ozone-docker-builder
+       Score:           206
+       Stars:             0
+       Forks:             3
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yaml
+
+#439  apache/casbin-jcasbin-spring-security-starter
+       Score:           206
+       Stars:             0
+       Forks:             3
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - gradle-ci.yml
+
+#440  apache/casbin-jcasbin-lettuce-redis-watcher
+       Score:           206
+       Stars:             2
+       Forks:             2
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#441  apache/casbin-jcasbin-nutz-authz
+       Score:           205
+       Stars:             1
+       Forks:             2
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#442  apache/incubator-resilientdb-create-resilient-app
+       Score:           205
+       Stars:             3
+       Forks:             1
+       Last push:  2026-04-08
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#443  apache/casbin-ucon
+       Score:           205
+       Stars:             3
+       Forks:             1
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - default.yml
+
+#444  apache/casbin-jcasbin-vertx-authz
+       Score:           204
+       Stars:             0
+       Forks:             2
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#445  apache/casbin-cpp-casbin-CMake-setup
+       Score:           204
+       Stars:             0
+       Forks:             2
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#446  apache/casbin-Casbin.NET-redis-adapter
+       Score:           204
+       Stars:             2
+       Forks:             1
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#447  apache/casbin-node-casbin-file-adapter
+       Score:           203
+       Stars:             1
+       Forks:             1
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#448  apache/casbin-node-casbin-examples
+       Score:           203
+       Stars:             1
+       Forks:             1
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - main.yml
+
+#449  apache/casbin-jcasbin-mybatisplus-adapter
+       Score:           203
+       Stars:             1
+       Forks:             1
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#450  apache/incubator-resilientdb-resilient-node-cache
+       Score:           203
+       Stars:             3
+       Forks:             0
+       Last push:  2026-05-07
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#451  apache/casbin-rust-string-adapter
+       Score:           203
+       Stars:             1
+       Forks:             1
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#452  apache/casbin-Casbin.NET-dotnet-cli
+       Score:           203
+       Stars:             1
+       Forks:             1
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#453  apache/tooling-asf-example
+       Score:           203
+       Stars:             1
+       Forks:             1
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release-on-tag.yaml
+
+#454  apache/casbin-docker_auth
+       Score:           202
+       Stars:             2
+       Forks:             0
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - go_test.yml
+
+#455  apache/casbin-jcasbin-string-adapter
+       Score:           202
+       Stars:             0
+       Forks:             1
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#456  apache/casbin-cpp-Cvaluate
+       Score:           201
+       Stars:             1
+       Forks:             0
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - ci.yml
+
+#457  apache/voxpupuli-puppet-fail2ban
+       Score:           201
+       Stars:             1
+       Forks:             0
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - release.yml
+
+#458  apache/casbin-jcasbin-zookeeper-watcher
+       Score:           201
+       Stars:             1
+       Forks:             0
+       Last push:  2026-05-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - maven-ci.yml
+
+#459  apache/shardingsphere-on-cloud
+       Score:           154
+       Stars:            88
+       Forks:            33
+       Last push:  2024-07-06
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - check-license.yml
+
+#460  apache/eventmesh-dashboard
+       Score:            99
+       Stars:            24
+       Forks:            21
+       Last push:  2025-12-22
+       Dependabot: ✓ dependabot/renovate
+       Flagged workflows (1):
+         - docker.yml
+
+#461  apache/nifi-python-extensions
+       Score:            58
+       Stars:            26
+       Forks:            16
+       Last push:  2024-11-13
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#462  apache/dubbo-initializer
+       Score:            47
+       Stars:            19
+       Forks:            14
+       Last push:  2024-10-31
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yml
+
+#463  apache/doris-shade
+       Score:            40
+       Stars:             2
+       Forks:            19
+       Last push:  2026-03-02
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yaml
+
+#464  apache/ozone-go
+       Score:            29
+       Stars:             7
+       Forks:            11
+       Last push:  2023-07-05
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - build.yaml
+
+#465  apache/infrastructure-pelican
+       Score:            27
+       Stars:             3
+       Forks:            12
+       Last push:  2026-02-01
+       Dependabot: ✗ no dependabot
+       Flagged workflows (4):
+         - issue62.yml
+         - linting.yml
+         - postrun.yml
+         - where.yml
+
+#466  apache/dubbo-spi-samples
+       Score:            24
+       Stars:             8
+       Forks:             8
+       Last push:  2024-12-12
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - dubbo-3_2.yml
+         - license.yml
+
+#467  apache/incubator-resilientdb-resvault
+       Score:            20
+       Stars:             4
+       Forks:             8
+       Last push:  2025-12-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#468  apache/dubbo-test-tools
+       Score:            18
+       Stars:             4
+       Forks:             7
+       Last push:  2025-09-11
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - build-error-code-inspector.yml
+         - license-check.yml
+         - unit-test.yml
+
+#469  apache/seatunnel-datasource-sdk
+       Score:            13
+       Stars:             5
+       Forks:             4
+       Last push:  2023-06-14
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#470  apache/incubator-resilientdb-graphql
+       Score:            12
+       Stars:             2
+       Forks:             5
+       Last push:  2025-12-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#471  apache/infrastructure-test
+       Score:            10
+       Stars:             2
+       Forks:             4
+       Last push:  2026-02-24
+       Dependabot: ✗ no dependabot
+       Flagged workflows (3):
+         - nightlies-rsync.yml
+         - nightlies.yml
+         - puppet-lint.yml
+
+#472  apache/incubator-resilientdb-ResLens
+       Score:             6
+       Stars:             2
+       Forks:             2
+       Last push:  2026-02-11
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#473  apache/ranger-tools
+       Score:             6
+       Stars:             0
+       Forks:             3
+       Last push:  2026-03-23
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - push.yaml
+
+#474  apache/incubator-resilientdb-rust_sdk
+       Score:             5
+       Stars:             3
+       Forks:             1
+       Last push:  2025-12-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#475  apache/incubator-resilientdb-smart-contracts-graphql
+       Score:             5
+       Stars:             1
+       Forks:             2
+       Last push:  2026-02-14
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#476  apache/incubator-resilientdb-ansible
+       Score:             5
+       Stars:             1
+       Forks:             2
+       Last push:  2025-12-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#477  apache/dubbo-go-contrib
+       Score:             4
+       Stars:             2
+       Forks:             1
+       Last push:  2023-06-12
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#478  apache/incubator-resilientdb-resilient-python-cache
+       Score:             4
+       Stars:             2
+       Forks:             1
+       Last push:  2025-12-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#479  apache/incubator-resilientdb-ResCLI
+       Score:             3
+       Stars:             3
+       Forks:             0
+       Last push:  2025-07-14
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#480  apache/incubator-resilientdb-ResDB-ORM
+       Score:             2
+       Stars:             2
+       Forks:             0
+       Last push:  2025-11-11
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#481  apache/incubator-resilientdb-resvault-sdk
+       Score:             2
+       Stars:             2
+       Forks:             0
+       Last push:  2025-12-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#482  apache/iggy-setup
+       Score:             2
+       Stars:             0
+       Forks:             1
+       Last push:  2026-01-30
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - main-tag.yml
+         - tag-update-major-tag.yml
+
+#483  apache/infrastructure-download-integrity-checker
+       Score:             0
+       Stars:             0
+       Forks:             0
+       Last push:  2022-08-16
+       Dependabot: ✗ no dependabot
+       Flagged workflows (2):
+         - type-tests.yml
+         - unit-tests.yml
+
+#484  apache/incubator-resilientdb-resilient-contract-kit
+       Score:             0
+       Stars:             0
+       Forks:             0
+       Last push:  2025-12-15
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+#485  apache/incubator-resilientdb-orbit
+       Score:             0
+       Stars:             0
+       Forks:             0
+       Last push:  2026-02-05
+       Dependabot: ✗ no dependabot
+       Flagged workflows (1):
+         - license.yml
+
+================================================================================
