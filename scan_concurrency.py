@@ -9,6 +9,7 @@ This script checks Apache project repositories for workflows that:
 Usage:
     python scan_concurrency.py --repo apache/camel
     python scan_concurrency.py --org apache --all
+    python scan_concurrency.py --repos-file reports/apache_workflows.txt
 """
 
 import argparse
@@ -276,6 +277,22 @@ class GitHubWorkflowScanner:
         return repos
 
 
+def load_repositories_from_file(file_path: str) -> List[str]:
+    """Load repository names from a text file."""
+    repos = []
+    try:
+        with open(file_path, 'r') as repos_file:
+            for line in repos_file:
+                repo = line.strip()
+                if not repo or repo.startswith('#'):
+                    continue
+                repos.append(repo)
+    except OSError as e:
+        print(f"Error reading repositories file {file_path}: {e}", file=sys.stderr)
+        return []
+    return repos
+
+
 def print_report(issues: List[WorkflowIssue]):
     """Print a formatted report of issues found."""
     if not issues:
@@ -321,6 +338,11 @@ def main():
         help='Scan all repositories in the organization (use with --org)'
     )
     parser.add_argument(
+        '--repos-file',
+        default='reports/apache_workflows.txt',
+        help='File containing repositories to scan, one per line (default: reports/apache_workflows.txt)'
+    )
+    parser.add_argument(
         '--token',
         help='GitHub personal access token (or set GITHUB_TOKEN env var)'
     )
@@ -337,8 +359,10 @@ def main():
     
     args = parser.parse_args()
     
-    if not args.repo and not (args.org and args.all):
-        parser.error("Either --repo or --org with --all must be specified")
+    if args.repo and (args.org or args.all):
+        parser.error("--repo cannot be used with --org/--all")
+    if (args.org and not args.all) or (args.all and not args.org):
+        parser.error("--org and --all must be used together")
     
     # Initialize scanner
     scanner = GitHubWorkflowScanner(github_token=args.token, delay=args.delay)
@@ -350,6 +374,13 @@ def main():
     elif args.org and args.all:
         print(f"Fetching repositories for organization: {args.org}")
         repos_to_scan = scanner.get_org_repositories(args.org)
+        print(f"Found {len(repos_to_scan)} repositories\n")
+    else:
+        print(f"Loading repositories from file: {args.repos_file}")
+        repos_to_scan = load_repositories_from_file(args.repos_file)
+        if not repos_to_scan:
+            print("No repositories found to scan.", file=sys.stderr)
+            sys.exit(1)
         print(f"Found {len(repos_to_scan)} repositories\n")
     
     # Scan repositories
