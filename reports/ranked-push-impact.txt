@@ -264,6 +264,7 @@ PR provided: https://github.com/apache/parquet-java/pull/3641
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - release.yml
+false-positive: configured for tags
 
 # 25  apache/linkis
        Score:          9366
@@ -339,6 +340,7 @@ PR provided: https://github.com/apache/netbeans/pull/9479
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - release.yaml
+False positive, tags configured
 
 # 32  apache/tinkerpop
        Score:          6537
@@ -434,6 +436,7 @@ Almost not using branches on apache repo
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided https://github.com/apache/httpcomponents-client/pull/843
 
 # 40  apache/parquet-format
        Score:          5934
@@ -443,6 +446,7 @@ Almost not using branches on apache repo
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - test.yml
+PR provided https://github.com/apache/parquet-format/pull/594
 
 # 41  apache/fory
        Score:          5756
@@ -495,6 +499,7 @@ PR provided https://github.com/apache/artemis/pull/6555
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - build.yml
+false positive tags configured
 
 # 46  apache/cordova-ios
        Score:          4722
@@ -563,6 +568,8 @@ PR provided https://github.com/apache/artemis/pull/6555
        Flagged workflows (2):
          - audit.yml
          - publish.yml
+false positive publish tags configured
+PR provided for the other https://github.com/apache/iceberg-rust/pull/2757
 
 # 53  apache/trafficserver
        Score:          4189
@@ -679,6 +686,7 @@ PR provided https://github.com/apache/ranger/pull/1038
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven-verify.yml
+PR provided https://github.com/apache/maven-surefire/pull/3385
 
 # 65  apache/inlong
        Score:          3135
@@ -810,6 +818,7 @@ PR provided https://github.com/apache/commons-math/pull/328
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided: https://github.com/apache/httpcomponents-core/pull/677
 
 # 77  apache/teaclave-sgx-sdk
        Score:          2262
@@ -829,6 +838,7 @@ PR provided https://github.com/apache/commons-math/pull/328
        Flagged workflows (2):
          - csharp.yml
          - dev_adbc.yml
+PR provided https://github.com/apache/arrow-adbc/pull/4458
 
 # 79  apache/servicecomb-service-center
        Score:          2233
@@ -897,6 +907,7 @@ PR provided https://github.com/apache/commons-math/pull/328
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - dev.yml
+provided PR https://github.com/apache/datafusion-python/pull/1619
 
 # 85  apache/cordova-plugin-splashscreen
        Score:          2095
@@ -948,6 +959,7 @@ PR provided https://github.com/apache/commons-imaging/pull/554
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - rc.yml
+false positive configured for tag
 
 # 90  apache/dubbo-go-samples
        Score:          1911
@@ -1206,6 +1218,7 @@ PR provided https://github.com/apache/commons-net/pull/402
        Flagged workflows (2):
          - dev.yml
          - release.yml
+PR provided https://github.com/apache/arrow-java/pull/1202
 
 #117  apache/calcite-avatica
        Score:          1252
@@ -1542,6 +1555,7 @@ PR provided: https://github.com/apache/commons-jcs/pull/414
        Flagged workflows (2):
          - linting.yml
          - pelican-action-test.yml
+false positive, there is no pull request configured
 
 #151  apache/juneau
        Score:          1012
@@ -1551,6 +1565,7 @@ PR provided: https://github.com/apache/commons-jcs/pull/414
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided https://github.com/apache/juneau/pull/356
 
 #152  apache/maven-pmd-plugin
        Score:          1008
@@ -1587,6 +1602,7 @@ PR provided: https://github.com/apache/commons-jcs/pull/414
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided https://github.com/apache/creadur-rat/pull/693
 
 #156  apache/maven-dependency-analyzer
        Score:           969
