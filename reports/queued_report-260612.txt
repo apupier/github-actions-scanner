@@ -1,0 +1,99 @@
+
+================================================================================
+QUEUED WORKFLOW RUNS REPORT
+Threshold: 48 hours (2 days)
+Report generated: 2026-06-12 08:55:52 UTC
+================================================================================
+
+⚠️  Found 11 workflow run(s) queued longer than threshold:
+
+
+Repository: apache/doris
+--------------------------------------------------------------------------------
+  Workflow: Comment to trigger teamcity
+  Run ID: #171735 (15445174740)
+  Branch: master (70e4cfb)
+  Queued since: 2025-06-04 14:34:51 UTC
+  Duration: 372d 18h 8m
+  URL: https://github.com/apache/doris/actions/runs/15445174740
+
+  Workflow: Build Extensions
+  Run ID: #181233 (15445174727)
+  Branch: master (70e4cfb)
+  Queued since: 2025-06-04 14:34:51 UTC
+  Duration: 372d 18h 8m
+  URL: https://github.com/apache/doris/actions/runs/15445174727
+
+  Workflow: License Check
+  Run ID: #204920 (15445174725)
+  Branch: master (70e4cfb)
+  Queued since: 2025-06-04 14:34:51 UTC
+  Duration: 372d 18h 8m
+  URL: https://github.com/apache/doris/actions/runs/15445174725
+
+  Workflow: Build Third Party Libraries
+  Run ID: #161231 (15445174722)
+  Branch: master (70e4cfb)
+  Queued since: 2025-06-04 14:34:51 UTC
+  Duration: 372d 18h 8m
+  URL: https://github.com/apache/doris/actions/runs/15445174722
+
+  Workflow: FE Code Style Checker
+  Run ID: #174842 (15445176468)
+  Branch: master (70e4cfb)
+  Queued since: 2025-06-04 14:34:55 UTC
+  Duration: 372d 18h 8m
+  URL: https://github.com/apache/doris/actions/runs/15445176468
+
+  Workflow: License Check
+  Run ID: #222813 (16148331340)
+  Branch: master (d2140a9)
+  Queued since: 2025-07-08 16:00:27 UTC
+  Duration: 338d 16h 43m
+  URL: https://github.com/apache/doris/actions/runs/16148331340
+
+  Workflow: Build Third Party Libraries
+  Run ID: #241948 (19358623228)
+  Branch: refactor-mysql-output-2 (a067411)
+  Queued since: 2025-11-14 08:21:04 UTC
+  Duration: 210d 22m
+  URL: https://github.com/apache/doris/actions/runs/19358623228
+
+
+Repository: apache/gluten
+--------------------------------------------------------------------------------
+  Workflow: Velox Backend Weekly Job
+  Run ID: #337 (26508881058)
+  Branch: fix/12013-bloom-filter-stage-fallback (9bf19dc)
+  Queued since: 2026-05-27 11:38:39 UTC
+  Duration: 15d 21h 11m
+  URL: https://github.com/apache/gluten/actions/runs/26508881058
+
+  Workflow: Gluten Flink Github Runner
+  Run ID: #433 (26508881057)
+  Branch: fix/12013-bloom-filter-stage-fallback (9bf19dc)
+  Queued since: 2026-05-27 11:38:39 UTC
+  Duration: 15d 21h 11m
+  URL: https://github.com/apache/gluten/actions/runs/26508881057
+
+  Workflow: Cpp Code Format Check
+  Run ID: #1680 (26508881105)
+  Branch: fix/12013-bloom-filter-stage-fallback (9bf19dc)
+  Queued since: 2026-05-27 11:38:39 UTC
+  Duration: 15d 21h 11m
+  URL: https://github.com/apache/gluten/actions/runs/26508881105
+
+  Workflow: CH Backend Code style checks
+  Run ID: #22064 (26508881099)
+  Branch: fix/12013-bloom-filter-stage-fallback (9bf19dc)
+  Queued since: 2026-05-27 11:38:39 UTC
+  Duration: 15d 21h 11m
+  URL: https://github.com/apache/gluten/actions/runs/26508881099
+
+================================================================================
+SUMMARY
+================================================================================
+Total repositories affected: 2
+Total queued runs: 11
+Average queue time: 225d 2h 13m
+Longest queue time: 372d 18h 8m (apache/doris)
