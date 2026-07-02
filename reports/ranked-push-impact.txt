@@ -108,6 +108,7 @@ PR provided https://github.com/apache/doris/pull/65121
        Flagged workflows (2):
          - gradle-wrapper-validation.yml
          - renovate-config-lint.yaml
+renovate is using its own fork for branches and committers are not usin gbranches on Apache repo
 
 # 11  apache/pouchdb
        Score:         21097
@@ -117,6 +118,7 @@ PR provided https://github.com/apache/doris/pull/65121
        Dependabot: ✗ no dependabot
        Flagged workflows (1):
          - ci.yml
+PR provided: https://github.com/apache/pouchdb/pull/9264
 
 # 12  apache/datafusion
        Score:         20708
@@ -252,6 +254,7 @@ mitigation provided: https://github.com/apache/nifi/pull/11376
        Flagged workflows (2):
          - ci-hadoop3.yml
          - vector-plugins.yml
+PR provided: https://github.com/apache/parquet-java/pull/3641
 
 # 24  apache/arrow-rs
        Score:          9628
@@ -326,6 +329,7 @@ PR provided https://github.com/apache/cloudstack/pull/13522
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - native-binary-build-launcher.yml
+PR provided: https://github.com/apache/netbeans/pull/9479
 
 # 31  apache/maven-mvnd
        Score:          6634
@@ -344,6 +348,7 @@ PR provided https://github.com/apache/cloudstack/pull/13522
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - build-test.yml
+PR provided https://github.com/apache/tinkerpop/pull/3500
 
 # 33  apache/dubbo-samples
        Score:          6519
