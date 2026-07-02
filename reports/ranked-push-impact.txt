@@ -708,6 +708,7 @@ PR provided https://github.com/apache/ranger/pull/1038
          - coverage.yml
          - maven.yml
          - maven_legacy.yml
+PR provided https://github.com/apache/commons-math/pull/328
 
 # 67  apache/hop
        Score:          2830
@@ -915,6 +916,7 @@ PR provided https://github.com/apache/ranger/pull/1038
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided https://github.com/apache/commons-imaging/pull/554
 
 # 87  apache/cordova-plugin-statusbar
        Score:          2081
@@ -973,6 +975,7 @@ PR provided https://github.com/apache/ranger/pull/1038
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided https://github.com/apache/commons-net/pull/402
 
 # 93  apache/arrow-go
        Score:          1708
@@ -1227,6 +1230,7 @@ PR provided https://github.com/apache/ranger/pull/1038
          - maven.yml
          - maven_adhoc.yml
          - maven_crosstest.yml
+PR provided https://github.com/apache/commons-crypto/pull/523
 
 #119  apache/jspwiki
        Score:          1240
@@ -1461,6 +1465,7 @@ PR provided https://github.com/apache/ranger/pull/1038
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided: https://github.com/apache/commons-jcs/pull/414
 
 #143  apache/maven-indexer
        Score:          1059
@@ -1757,6 +1762,7 @@ PR provided https://github.com/apache/ranger/pull/1038
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided https://github.com/apache/commons-parent/pull/716
 
 #175  apache/maven-help-plugin
        Score:           904
@@ -1954,6 +1960,7 @@ PR provided https://github.com/apache/ranger/pull/1038
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided https://github.com/apache/commons-jelly/pull/106
 
 #196  apache/maven-antrun-plugin
        Score:           861
@@ -2073,6 +2080,7 @@ PR provided https://github.com/apache/ranger/pull/1038
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided https://github.com/apache/commons-weaver/pull/83
 
 #209  apache/maven-changelog-plugin
        Score:           834
@@ -3262,6 +3270,7 @@ PR provided https://github.com/apache/ranger/pull/1038
        Flagged workflows (2):
          - coverage.yml
          - maven.yml
+Dormant repository
 
 #336  apache/dubbo-benchmark
        Score:           358
