@@ -216,6 +216,7 @@ mitigation provided: https://github.com/apache/nifi/pull/11376
          - release_python.yml
          - release_ruby.yml
          - release_rust.yml
+false positive, configured for tags
 
 # 20  apache/calcite
        Score:         10634
@@ -1024,6 +1025,7 @@ PR provided https://github.com/apache/commons-net/pull/402
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - python_dbapi_wheels.yml
+Not triggered on pull request
 
 # 97  apache/cordova-plugin-network-information
        Score:          1636
@@ -1524,6 +1526,7 @@ PR provided: https://github.com/apache/commons-jcs/pull/414
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - release.yml
+false positive tag configured
 
 #148  apache/yetus
        Score:          1029
@@ -1535,6 +1538,7 @@ PR provided: https://github.com/apache/commons-jcs/pull/414
          - action-test.yml
          - linkcheck.yml
          - yetus.yml
+PR provided https://github.com/apache/yetus/pull/395
 
 #149  apache/servicecomb-mesher
        Score:          1026
@@ -1750,6 +1754,7 @@ PR provided https://github.com/apache/creadur-rat/pull/693
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - bval-ci.yml
+PR provided https://github.com/apache/bval/pull/246
 
 #172  apache/incubator-baremaps
        Score:           908
@@ -1904,6 +1909,7 @@ PR provided https://github.com/apache/commons-parent/pull/716
          - linting.yml
          - type-tests.yml
          - unittest.yml
+false positivbe: no tplayed with pull_request
 
 #188  apache/maven-filtering
        Score:           876
@@ -2555,6 +2561,7 @@ PR provided https://github.com/apache/commons-weaver/pull/83
        Flagged workflows (2):
          - ci.yml
          - rat.yml
+PR provided https://github.com/apache/grails-github-actions/pull/97
 
 #259  apache/maven-xinclude-extension
        Score:           764
@@ -2601,6 +2608,7 @@ PR provided https://github.com/apache/commons-weaver/pull/83
        Dependabot: ✓ dependabot/renovate
        Flagged workflows (1):
          - maven.yml
+PR provided: https://github.com/apache/hadoop-cloudstore/pull/16
 
 #264  apache/casbin-server
        Score:           744
