@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Script to report GitHub Actions workflow runs that have been queued for more than a specified time.
+Script to report GitHub Actions workflow runs that have been queued or running for more than a specified time.
 
-This script checks Apache project repositories for workflow runs that are in 'queued' status
-and have been waiting longer than a threshold (default: 2 days).
+This script checks Apache project repositories for workflow runs that are in 'queued' or
+'in_progress' status and have been waiting/running longer than a threshold (default: 2 days).
 
 Usage:
     # Test on a single repository first
@@ -30,21 +30,22 @@ from dataclasses import dataclass
 
 
 @dataclass
-class QueuedWorkflowRun:
-    """Represents a workflow run that has been queued for too long."""
+class StuckWorkflowRun:
+    """Represents a workflow run that has been queued or running for too long."""
     repo: str
     workflow_name: str
     run_id: int
     run_number: int
     created_at: datetime
-    queued_duration: timedelta
+    duration: timedelta
     html_url: str
     head_branch: str
     head_sha: str
+    status: str  # 'queued' or 'in_progress'
 
 
 class QueuedWorkflowScanner:
-    """Scanner for queued GitHub Actions workflow runs."""
+    """Scanner for queued and in-progress GitHub Actions workflow runs."""
     
     def __init__(self, github_token: Optional[str] = None, delay: float = 0.5):
         """
@@ -86,24 +87,24 @@ class QueuedWorkflowScanner:
             print(f"Error making request to {url}: {e}", file=sys.stderr)
             return None
     
-    def get_queued_workflow_runs(self, repo: str, threshold_hours: int) -> List[QueuedWorkflowRun]:
+    def _get_workflow_runs_by_status(self, repo: str, status: str, threshold_hours: int) -> List[StuckWorkflowRun]:
         """
-        Get all workflow runs that have been queued for longer than the threshold.
+        Get all workflow runs in the given status that have exceeded the threshold.
         
         Args:
             repo: Repository in format 'owner/name'
-            threshold_hours: Minimum hours a run must be queued to be reported
+            status: GitHub Actions run status ('queued' or 'in_progress')
+            threshold_hours: Minimum hours a run must be in that status to be reported
             
         Returns:
-            List of QueuedWorkflowRun objects
+            List of StuckWorkflowRun objects
         """
-        queued_runs = []
+        stuck_runs = []
         threshold_time = datetime.now(timezone.utc) - timedelta(hours=threshold_hours)
         
-        # API endpoint for workflow runs
         url = f"{self.base_url}/repos/{repo}/actions/runs"
         params = {
-            'status': 'queued',
+            'status': status,
             'per_page': 100
         }
         
@@ -127,26 +128,24 @@ class QueuedWorkflowScanner:
                     if not created_at_str:
                         continue
                     
-                    # Parse the created_at timestamp
                     created_at = datetime.fromisoformat(created_at_str.replace('Z', '+00:00'))
                     
-                    # Check if it's been queued longer than threshold
                     if created_at < threshold_time:
-                        queued_duration = datetime.now(timezone.utc) - created_at
+                        duration = datetime.now(timezone.utc) - created_at
                         
-                        queued_runs.append(QueuedWorkflowRun(
+                        stuck_runs.append(StuckWorkflowRun(
                             repo=repo,
                             workflow_name=run.get('name', 'Unknown'),
                             run_id=run.get('id'),
                             run_number=run.get('run_number'),
                             created_at=created_at,
-                            queued_duration=queued_duration,
+                            duration=duration,
                             html_url=run.get('html_url', ''),
                             head_branch=run.get('head_branch', 'unknown'),
-                            head_sha=run.get('head_sha', '')[:7]  # Short SHA
+                            head_sha=run.get('head_sha', '')[:7],
+                            status=status
                         ))
                 
-                # Check if there are more pages
                 if len(workflow_runs) < params['per_page']:
                     break
                 
@@ -156,22 +155,23 @@ class QueuedWorkflowScanner:
                 print(f"Error parsing workflow runs for {repo}: {e}", file=sys.stderr)
                 break
         
-        return queued_runs
-    
-    def scan_repositories(self, repos: List[str], threshold_hours: int) -> List[QueuedWorkflowRun]:
+        return stuck_runs
+
+    def scan_repositories(self, repos: List[str], threshold_hours: int) -> Dict[str, List[StuckWorkflowRun]]:
         """
-        Scan multiple repositories for queued workflow runs.
+        Scan multiple repositories for queued and in-progress workflow runs.
         
         Args:
             repos: List of repository names in format 'owner/name'
-            threshold_hours: Minimum hours a run must be queued to be reported
+            threshold_hours: Minimum hours a run must be stuck to be reported
             
         Returns:
-            List of all QueuedWorkflowRun objects found
+            Dict with keys 'queued' and 'in_progress', each containing a list of StuckWorkflowRun objects
         """
-        all_queued_runs = []
+        all_queued: List[StuckWorkflowRun] = []
+        all_in_progress: List[StuckWorkflowRun] = []
         
-        print(f"Scanning {len(repos)} repositories for workflow runs queued longer than {threshold_hours} hours...")
+        print(f"Scanning {len(repos)} repositories for workflow runs stuck longer than {threshold_hours} hours...")
         print(f"Threshold time: {datetime.now(timezone.utc) - timedelta(hours=threshold_hours)}")
         print()
         
@@ -179,15 +179,23 @@ class QueuedWorkflowScanner:
             print(f"[{i}/{len(repos)}] Checking {repo}...", end=" ")
             sys.stdout.flush()
             
-            queued_runs = self.get_queued_workflow_runs(repo, threshold_hours)
+            queued_runs = self._get_workflow_runs_by_status(repo, 'queued', threshold_hours)
+            in_progress_runs = self._get_workflow_runs_by_status(repo, 'in_progress', threshold_hours)
             
-            if queued_runs:
-                print(f"⚠️  Found {len(queued_runs)} queued run(s)")
-                all_queued_runs.extend(queued_runs)
+            found = len(queued_runs) + len(in_progress_runs)
+            if found:
+                parts = []
+                if queued_runs:
+                    parts.append(f"{len(queued_runs)} queued")
+                if in_progress_runs:
+                    parts.append(f"{len(in_progress_runs)} in progress")
+                print(f"⚠️  Found {', '.join(parts)}")
+                all_queued.extend(queued_runs)
+                all_in_progress.extend(in_progress_runs)
             else:
                 print("✓")
         
-        return all_queued_runs
+        return {'queued': all_queued, 'in_progress': all_in_progress}
 
 
 def parse_repos_file(file_path: str) -> List[str]:
@@ -244,56 +252,70 @@ def format_duration(duration: timedelta) -> str:
     return " ".join(parts)
 
 
-def print_report(queued_runs: List[QueuedWorkflowRun], threshold_hours: int):
-    """Print a formatted report of queued workflow runs."""
+def _print_section(label: str, since_label: str, runs: List[StuckWorkflowRun]):
+    """Print a single status section (queued or in-progress) grouped by repository."""
+    if not runs:
+        print(f"\n✅ No workflow runs have been {label} longer than the threshold.")
+        return
+    
+    print(f"\n⚠️  Found {len(runs)} workflow run(s) {label} longer than threshold:\n")
+    
+    runs_by_repo: Dict[str, List[StuckWorkflowRun]] = {}
+    for run in runs:
+        runs_by_repo.setdefault(run.repo, []).append(run)
+    
+    for repo in sorted(runs_by_repo.keys()):
+        print(f"\nRepository: {repo}")
+        print("-" * 80)
+        for run in sorted(runs_by_repo[repo], key=lambda r: r.duration, reverse=True):
+            print(f"  Workflow: {run.workflow_name}")
+            print(f"  Run ID: #{run.run_number} ({run.run_id})")
+            print(f"  Branch: {run.head_branch} ({run.head_sha})")
+            print(f"  {since_label}: {run.created_at.strftime('%Y-%m-%d %H:%M:%S UTC')}")
+            print(f"  Duration: {format_duration(run.duration)}")
+            print(f"  URL: {run.html_url}")
+            print()
+
+
+def print_report(runs_by_status: Dict[str, List[StuckWorkflowRun]], threshold_hours: int):
+    """Print a formatted report of queued and in-progress workflow runs."""
     print("\n" + "=" * 80)
-    print(f"QUEUED WORKFLOW RUNS REPORT")
+    print(f"STUCK WORKFLOW RUNS REPORT")
     print(f"Threshold: {threshold_hours} hours ({threshold_hours // 24} days)")
     print(f"Report generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}")
     print("=" * 80)
     
-    if not queued_runs:
-        print("\n✅ No workflow runs have been queued longer than the threshold.")
+    queued_runs = runs_by_status.get('queued', [])
+    in_progress_runs = runs_by_status.get('in_progress', [])
+    
+    print("\n" + "~" * 80)
+    print("QUEUED RUNS")
+    print("~" * 80)
+    _print_section("queued", "Queued since", queued_runs)
+    
+    print("\n" + "~" * 80)
+    print("IN-PROGRESS RUNS")
+    print("~" * 80)
+    _print_section("in progress", "Started since", in_progress_runs)
+    
+    all_runs = queued_runs + in_progress_runs
+    if not all_runs:
         return
     
-    print(f"\n⚠️  Found {len(queued_runs)} workflow run(s) queued longer than threshold:\n")
-    
-    # Group by repository
-    runs_by_repo = {}
-    for run in queued_runs:
-        if run.repo not in runs_by_repo:
-            runs_by_repo[run.repo] = []
-        runs_by_repo[run.repo].append(run)
-    
-    # Sort repositories by name
-    for repo in sorted(runs_by_repo.keys()):
-        runs = runs_by_repo[repo]
-        print(f"\nRepository: {repo}")
-        print("-" * 80)
-        
-        # Sort runs by queued duration (longest first)
-        for run in sorted(runs, key=lambda r: r.queued_duration, reverse=True):
-            print(f"  Workflow: {run.workflow_name}")
-            print(f"  Run ID: #{run.run_number} ({run.run_id})")
-            print(f"  Branch: {run.head_branch} ({run.head_sha})")
-            print(f"  Queued since: {run.created_at.strftime('%Y-%m-%d %H:%M:%S UTC')}")
-            print(f"  Duration: {format_duration(run.queued_duration)}")
-            print(f"  URL: {run.html_url}")
-            print()
-    
     # Summary statistics
-    print("=" * 80)
+    all_repos = {r.repo for r in all_runs}
+    print("\n" + "=" * 80)
     print("SUMMARY")
     print("=" * 80)
-    print(f"Total repositories affected: {len(runs_by_repo)}")
+    print(f"Total repositories affected: {len(all_repos)}")
     print(f"Total queued runs: {len(queued_runs)}")
+    print(f"Total in-progress runs: {len(in_progress_runs)}")
     
-    # Calculate average and max duration
-    avg_duration = sum((r.queued_duration.total_seconds() for r in queued_runs), 0) / len(queued_runs)
-    max_duration = max(queued_runs, key=lambda r: r.queued_duration)
+    avg_duration = sum((r.duration.total_seconds() for r in all_runs), 0) / len(all_runs)
+    max_run = max(all_runs, key=lambda r: r.duration)
     
-    print(f"Average queue time: {format_duration(timedelta(seconds=avg_duration))}")
-    print(f"Longest queue time: {format_duration(max_duration.queued_duration)} ({max_duration.repo})")
+    print(f"Average duration: {format_duration(timedelta(seconds=avg_duration))}")
+    print(f"Longest duration: {format_duration(max_run.duration)} ({max_run.repo}, {max_run.status})")
 
 
 def main():
@@ -391,22 +413,23 @@ Examples:
         sys.exit(1)
     
     # Scan repositories
-    queued_runs = scanner.scan_repositories(repos, args.threshold_hours)
+    runs_by_status = scanner.scan_repositories(repos, args.threshold_hours)
     
     # Print or save report
     if args.output:
         original_stdout = sys.stdout
         with open(args.output, 'w') as f:
             sys.stdout = f
-            print_report(queued_runs, args.threshold_hours)
+            print_report(runs_by_status, args.threshold_hours)
         sys.stdout = original_stdout
+        total = sum(len(v) for v in runs_by_status.values())
         print(f"\nReport written to: {args.output}")
-        print(f"Total queued runs found: {len(queued_runs)}")
+        print(f"Total stuck runs found: {total}")
     else:
-        print_report(queued_runs, args.threshold_hours)
+        print_report(runs_by_status, args.threshold_hours)
     
-    # Exit with error code if queued runs found
-    sys.exit(1 if queued_runs else 0)
+    # Exit with error code if any stuck runs found
+    sys.exit(1 if any(runs_by_status.values()) else 0)
 
 
 if __name__ == '__main__':
