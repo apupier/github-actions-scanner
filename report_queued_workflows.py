@@ -42,12 +42,13 @@ class StuckWorkflowRun:
     head_branch: str
     head_sha: str
     status: str  # 'queued' or 'in_progress'
+    runner_count: int = 0  # number of jobs actively using a runner (in_progress jobs)
 
 
 class QueuedWorkflowScanner:
     """Scanner for queued and in-progress GitHub Actions workflow runs."""
     
-    def __init__(self, github_token: Optional[str] = None, delay: float = 0.5):
+    def __init__(self, github_token: Optional[str] = None, delay: float = 0.1):
         """
         Initialize the scanner.
         
@@ -87,6 +88,38 @@ class QueuedWorkflowScanner:
             print(f"Error making request to {url}: {e}", file=sys.stderr)
             return None
     
+    def _get_in_progress_job_count(self, repo: str, run_id: int) -> int:
+        """
+        Get the number of jobs actively running on a runner for a given workflow run.
+
+        Args:
+            repo: Repository in format 'owner/name'
+            run_id: The workflow run ID
+
+        Returns:
+            Count of jobs with status 'in_progress'
+        """
+        url = f"{self.base_url}/repos/{repo}/actions/runs/{run_id}/jobs"
+        params = {'filter': 'latest', 'per_page': 100}
+        count = 0
+        page = 1
+        while True:
+            params['page'] = page
+            response = self._make_request(url, params)
+            if not response:
+                break
+            try:
+                data = response.json()
+                jobs = data.get('jobs', [])
+                count += sum(1 for job in jobs if job.get('status') == 'in_progress')
+                if len(jobs) < params['per_page']:
+                    break
+                page += 1
+            except (ValueError, KeyError) as e:
+                print(f"Error parsing jobs for run {run_id} in {repo}: {e}", file=sys.stderr)
+                break
+        return count
+
     def _get_workflow_runs_by_status(self, repo: str, status: str, threshold_hours: int) -> List[StuckWorkflowRun]:
         """
         Get all workflow runs in the given status that have exceeded the threshold.
@@ -133,17 +166,23 @@ class QueuedWorkflowScanner:
                     if created_at < threshold_time:
                         duration = datetime.now(timezone.utc) - created_at
                         
+                        run_id = run.get('id')
+                        runner_count = (
+                            self._get_in_progress_job_count(repo, run_id)
+                            if status == 'in_progress' else 0
+                        )
                         stuck_runs.append(StuckWorkflowRun(
                             repo=repo,
                             workflow_name=run.get('name', 'Unknown'),
-                            run_id=run.get('id'),
+                            run_id=run_id,
                             run_number=run.get('run_number'),
                             created_at=created_at,
                             duration=duration,
                             html_url=run.get('html_url', ''),
                             head_branch=run.get('head_branch', 'unknown'),
                             head_sha=run.get('head_sha', '')[:7],
-                            status=status
+                            status=status,
+                            runner_count=runner_count
                         ))
                 
                 if len(workflow_runs) < params['per_page']:
@@ -273,6 +312,8 @@ def _print_section(label: str, since_label: str, runs: List[StuckWorkflowRun]):
             print(f"  Branch: {run.head_branch} ({run.head_sha})")
             print(f"  {since_label}: {run.created_at.strftime('%Y-%m-%d %H:%M:%S UTC')}")
             print(f"  Duration: {format_duration(run.duration)}")
+            if run.status == 'in_progress':
+                print(f"  Runners in use: {run.runner_count}")
             print(f"  URL: {run.html_url}")
             print()
 
@@ -310,6 +351,8 @@ def print_report(runs_by_status: Dict[str, List[StuckWorkflowRun]], threshold_ho
     print(f"Total repositories affected: {len(all_repos)}")
     print(f"Total queued runs: {len(queued_runs)}")
     print(f"Total in-progress runs: {len(in_progress_runs)}")
+    total_runners = sum(r.runner_count for r in in_progress_runs)
+    print(f"Total runners in use: {total_runners}")
     
     avg_duration = sum((r.duration.total_seconds() for r in all_runs), 0) / len(all_runs)
     max_run = max(all_runs, key=lambda r: r.duration)
@@ -359,8 +402,8 @@ Examples:
     parser.add_argument(
         '--delay',
         type=float,
-        default=0.5,
-        help='Delay in seconds between API calls (default: 0.5)'
+        default=0.1,
+        help='Delay in seconds between API calls (default: 0.1)'
     )
     parser.add_argument(
         '--output',
