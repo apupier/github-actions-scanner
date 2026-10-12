@@ -114,6 +114,10 @@ class GitHubWorkflowScanner:
         neither a 'branches' nor a 'branches-ignore' filter — meaning it fires on
         every push to every branch.
 
+        Workflows whose push trigger is restricted to tags only (via 'tags' or
+        'tags-ignore') but carries no branch filter are NOT flagged: they never
+        fire on branch pushes, so they cannot cause duplicate runs.
+
         Args:
             repo: Repository in format 'owner/name'
             workflow_file: Name of the workflow file (for reporting)
@@ -156,16 +160,22 @@ class GitHubWorkflowScanner:
         if push_config is None:
             return None  # no push trigger — nothing to flag
 
-        has_branch_filter = (
-            isinstance(push_config, dict)
-            and (
+        if isinstance(push_config, dict):
+            has_branch_filter = (
                 push_config.get('branches') is not None
                 or push_config.get('branches-ignore') is not None
             )
-        )
+            if has_branch_filter:
+                return None  # correctly restricted to specific branches
 
-        if has_branch_filter:
-            return None  # correctly restricted
+            # Tags-only trigger: fires on tag pushes, never on branch pushes.
+            # Not an issue — skip it.
+            has_tag_filter = (
+                push_config.get('tags') is not None
+                or push_config.get('tags-ignore') is not None
+            )
+            if has_tag_filter:
+                return None  # tags-only push trigger, not a branch concern
 
         workflow_url = ""
         if file_path:
